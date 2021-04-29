@@ -141,13 +141,58 @@ table {
 
 * {
   box-sizing: border-box;
-  height: 1200px;
+  height: 100vh;
+}
+
+#background-img {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-size: cover;
+}
+
+#navsection {
+  height: 100px;
+  width: 100%;
+  z-index: 4;
+  position: relative;
+  background: #A63C3C;
+}
+
+#navsection .icon-hold {
+  color: white;
+  padding: 10px;
+}
+
+#navsection .fa {
+  padding: 10px;
+  color: white;
+  font-size: 1.5rem;
 }
 
 #bigone {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
-  background: blue;
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  font-family: "Roboto", sans-serif;
+  background: white;
+  text-align: center;
+  height: 200px;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  width: 100%;
+  z-index: 10;
+  position: relative;
+  padding: 50px;
 }
+
+#bigone .click-text {
+  text-decoration: underline;
+  font-weight: 800;
+}
+
+#bigtwo {
+  position: relative;
+  background: blue;
+}
+
+/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
