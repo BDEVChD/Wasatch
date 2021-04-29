@@ -170,11 +170,17 @@ table {
   font-size: 1.5rem;
 }
 
+#navsection .logo-content {
+  height: 200px;
+  width: 100%;
+  background: white;
+}
+
 #bigone {
   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
   background: white;
   text-align: center;
-  height: 200px;
+  height: 150px;
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -190,8 +196,29 @@ table {
 }
 
 #bigtwo {
+  background: white;
+  text-align: center;
+  height: 300px;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  width: 100%;
+  z-index: 10;
   position: relative;
-  background: blue;
+  padding: 50px;
+}
+
+#footer {
+  background: #343773;
+  text-align: center;
+  height: 100px;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  z-index: 10;
+  color: white;
+  position: relative;
+  padding: 50px;
 }
 
 /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */

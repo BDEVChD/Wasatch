@@ -23,20 +23,28 @@
      
     <div id="bigone">Need help posting an ad? <span class="click-text">Click Here.</span> </div>
     <section id="navsection">
-    <div class="icon-hold" style="display: flex; ">
-   
-     <i class="fa fa-envelope" style="display: flex; " aria-hidden="true"> wasatchfirearmnetwork@gmail.com</i>  
-       <i class='fa fa-phone' style="display: inline-block;  ">888-272-5338</i>
-    </div>
-       
-      
+        <div class="icon-hold" style="display: flex; ">
     
+        <i class="fa fa-envelope" style="display: flex; " aria-hidden="true"> wasatchfirearmnetwork@gmail.com</i>  
+      
+        <i class='fa fa-phone' style="display: inline-block;  ">888-272-5338</i>
+        </div>   
     </section> 
+    <div id="bigtwo">
+     <img style="height: 210px; width: 210px; padding-bottom: 10px; align-items: center;   " src="/img/WasatchLogosmall.png">
+    </div>
+    <section id="logo-content">
+     
+    
+    
+    </section>
+    
+  
 
 
 
 
-    <div id="bigtwo">Need help posting an ad? Click Here.</div>
+    <div id="footer">© 2019 Wasatch Firearm Network. <br> Utah Web Design and Utah SEO by Ranksey</div>
         
      
     </body>
