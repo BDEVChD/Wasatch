@@ -177,13 +177,12 @@ table {
 }
 
 #bigone {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,2989d8+50,207cca+51,7db9e8+100;Blue+Gloss+Default */
   background: white;
   text-align: center;
   height: 150px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   width: 100%;
   z-index: 10;
   position: relative;
@@ -205,7 +204,32 @@ table {
   width: 100%;
   z-index: 10;
   position: relative;
-  padding: 50px;
+  padding-bottom: 50px;
+}
+
+#bigtwo #nav-links {
+  position: relative;
+  height: 150px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+#bigtwo a {
+  height: 10px;
+  justify-content: space-between !important;
+  padding: 2px 50px;
+  font-family: "Libre Baskerville", serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+#bigtwo a:hover {
+  color: #A63C3C;
+  text-decoration: underline;
 }
 
 #footer {
@@ -218,7 +242,7 @@ table {
   z-index: 10;
   color: white;
   position: relative;
-  padding: 50px;
+  padding: 30px 0;
 }
 
 /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
