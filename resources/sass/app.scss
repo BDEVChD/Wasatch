@@ -90,15 +90,20 @@
        justify-content: space-between;
     }
    a {
-       height: 10px; 
-       justify-content: space-between !important;
+      
+    //    justify-content: space-between !important;
        padding: 2px 10px; 
        font-family: 'Libre Baskerville', serif;
        text-transform: capitalize;
        text-decoration: none;
-       display: inline-block;
+       display: inline;  
+       justify-content: center;
+       align-items: center;
+       text-align: center;
        color: black ; 
+   
        font-weight: 400; 
+    //    background: blue; 
        font-size: 1.3rem; 
        &:hover{
            color: #A63C3C;
@@ -120,6 +125,7 @@
     z-index: 10; 
     color: white; 
     position: relative; 
+   
     padding: 30px 0;  
   
 
