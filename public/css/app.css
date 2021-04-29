@@ -156,7 +156,7 @@ table {
   width: 100%;
   z-index: 4;
   position: relative;
-  background: #A63C3C;
+  background: linear-gradient(0deg, #d08d8d 0%, #af3a3a 0%);
 }
 
 #navsection .icon-hold {
@@ -249,7 +249,7 @@ table {
 }
 
 #footer {
-  background: #343773;
+  background: rgba(52, 55, 115, 0.8);
   text-align: center;
   height: 100px;
   font-size: 1rem;
