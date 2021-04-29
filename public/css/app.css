@@ -233,6 +233,21 @@ table {
   text-decoration: underline;
 }
 
+#bigtwo #bigstuff {
+  height: 300px;
+  width: 100%;
+  color: white;
+  text-align: right;
+  padding-right: 120px;
+  font-size: 3rem;
+  background: transparent;
+  position: relative;
+}
+
+#bigtwo #bigstuff #buy {
+  font-size: 1.5rem;
+}
+
 #footer {
   background: #343773;
   text-align: center;
@@ -242,7 +257,8 @@ table {
   width: 100%;
   z-index: 10;
   color: white;
-  position: relative;
+  position: absolute;
+  margin-bottom: 0;
   padding: 30px 0;
 }
 

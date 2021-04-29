@@ -34,20 +34,29 @@
     </section> 
     <div id="bigtwo">
      <img style="height: 210px; width: 210px; padding-bottom: 10px; align-items: center;   " src="/img/WasatchLogosmall.png">
-     <div id="nav-links" style="padding: 10px;  " >
+        <div id="nav-links" style="padding: 10px;  " >
+            <a href="#"  >Home</a>
+            <a href="#">Utah Gun Classifieds</a>
+            <a href="#">Categories <i class="fa fa-caret-down"></i> </a>
+            <a href="#">Add Listing</a>
+            <a href="#">Manage Listing</a>
+            <a href="#" >Contact Us</a>
+        </div>
+        <section id="bigstuff">
+        Proud <br>
+        Patriotic <br>
+        Responsible <br>
+        <span id="buy">Buy, sell, and trade firearms in Utah.</span><br>
         
-       
-        <a href="#"  >Home</a>
-        <a href="#">Utah Gun Classifieds</a>
-        <a href="#">Categories <i class="fa fa-caret-down"></i> </a>
-        <a href="#">Add Listing</a>
-        <a href="#">Manage Listing</a>
-        <a href="#" >Contact Us</a>
-     
-     
-     </div>
+        
+        
+        </section>
     </div>
-    <section id="logo-content">
+    
+
+
+
+    <section id="content-area">
      
     
     
