@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
- <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Wasatch Firearms</title>
         <link rel="stylesheet" href="/css/app.css">
 
@@ -26,13 +26,13 @@
     <section id="navsection">
         <div class="icon-hold" style="display: flex; ">
     
-        <i class="fa fa-envelope" style="display: flex; " aria-hidden="true"> wasatchfirearmnetwork@gmail.com</i>  
-      
-        <i class='fa fa-phone' style="display: inline-block;  ">888-272-5338</i>
+            <i class="fa fa-envelope" style="padding: 40px; " aria-hidden="true"> wasatchfirearmnetwork@gmail.com</i>  
+        
+            <i class='fa fa-phone' style="padding: 40px;  ">888-272-5338</i>
      
         </div>   
     </section> 
-    <div id="bigtwo">
+    <section id="bigtwo">
      <img style="height: 210px; width: 210px; padding-bottom: 10px; align-items: center;   " src="/img/WasatchLogosmall.png">
         <div id="nav-links" style="padding: 10px;  " >
             <a href="#"  >Home</a>
@@ -51,23 +51,66 @@
         
         
         </section>
-    </div>
+        <section id="promotional-wrapper">
+            <div class="promotional-section-right">
+               <div id="box">
+                    <img src="/img/Victory-Design-1-3.png">
+               </div>
+                <div id="box">
+                    <img src="/img/Good-Times-Square-Ad.png">
+                </div>
+             </div>
+            <div class="promotional-text">
+             HI 
+            
+            </div>
     
-
-
-
-    <section id="content-area">
-     
+    
+        </section>
+          <section id="classifieds-text">
+            <div class="promotional-section">HI </div>
+            <div class="promotional-images">DIST</div>
     
     
+            </section>
+          <section id="browse-wrapper">
+            <div id="card"></div>
+            <div id="card"></div>
+            <div id="card"></div>
+    
+    
+        </section>
+        <section id="values-wrapper">
+            <div class="promotional-section">HI </div>
+            <div class="promotional-images">DIST</div>
+    
+    
+        </section>
+         <section id="mission-wrapper">
+            <div class="promotional-section">HI </div>
+            <div class="promotional-images">DIST</div>
+    
+    
+        </section>
+              <section id="footer-wrapper">
+     <div id="footer"> © 2019 Wasatch Firearm Network. <br> Utah Web Design and Utah SEO by Ranksey</div></section>
+  
     </section>
+      <section id="promotional-wrapper">YOU
+            <div class="promotional-section">HI </div>
+            <div class="promotional-images">DIST</div>
     
+    
+        </section>
+ 
+    
+
   
 
 
 
 
-    <div id="footer">© 2019 Wasatch Firearm Network. <br> Utah Web Design and Utah SEO by Ranksey</div>
+
         
      
     </body>

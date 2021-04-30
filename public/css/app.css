@@ -149,6 +149,9 @@ table {
   width: 100%;
   z-index: 1;
   background-size: cover;
+  opacity: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #navsection {
@@ -171,7 +174,7 @@ table {
 }
 
 #navsection .logo-content {
-  height: 200px;
+  height: 300px;
   width: 100%;
   background: white;
 }
@@ -234,7 +237,7 @@ table {
 }
 
 #bigtwo #bigstuff {
-  height: 300px;
+  height: 900px;
   width: 100%;
   color: white;
   text-align: right;
@@ -248,7 +251,57 @@ table {
   font-size: 1.5rem;
 }
 
-#footer {
+#footer-wrapper {
+  position: relative;
+  bottom: 0;
+}
+
+#promotional-wrapper {
+  z-index: 50;
+  background: white;
+  text-align: center;
+  height: 800px;
+  width: 100vw;
+  font-size: 1.5rem;
+  z-index: 10;
+}
+
+#promotional-wrapper .promotional-section-right {
+  padding-left: 180px;
+  height: 600px;
+  float: right;
+  display: inline-block;
+  color: black;
+  width: 50%;
+}
+
+#promotional-wrapper .promotional-section-right #box {
+  height: 350px;
+  width: 350px;
+  background: white;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 30px;
+  position: relative;
+  right: -100px;
+  display: block;
+}
+
+#promotional-wrapper .promotional-section-right #box img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#promotional-wrapper .promotional-text {
+  padding: 60px;
+  max-height: 100%;
+  display: inline-block;
+  background: white;
+  color: white;
+  width: 50%;
+}
+
+#footer-wrapper #footer {
   background: rgba(52, 55, 115, 0.8);
   text-align: center;
   height: 100px;
@@ -257,8 +310,7 @@ table {
   width: 100%;
   z-index: 10;
   color: white;
-  position: absolute;
-  margin-bottom: 0;
+  transform: translate3d(0, 850px, 0);
   padding: 30px 0;
 }
 
