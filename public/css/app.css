@@ -313,15 +313,15 @@ table {
   background: white;
   display: inline-block;
   margin: 10px;
-  height: 600px;
-  width: 500px;
+  height: 400px;
+  width: 300px;
 }
 
 #browse-wrapper #card img {
   position: relative;
   width: 100%;
   z-index: 1;
-  height: 500px;
+  height: 300px;
   background-size: cover;
   opacity: 1;
   -o-object-fit: cover;

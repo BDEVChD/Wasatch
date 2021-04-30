@@ -67,7 +67,7 @@
     
     
         </section>
-          <section id="classifieds-text">
+          <section id="classifieds-text" style="background: white; ">
             <div class="promotional-section">HI </div>
             <div class="promotional-images" >Browse Our Products</div>
     
@@ -85,13 +85,13 @@
                 <img  src="/img/shutterstock3.png">
             </div>
         </section>
-        <section id="values-wrapper">
+        <section id="values-wrapper" style="background: white; ">
             <div class="promotional-section">HI </div>
             <div class="promotional-images">DIST</div>
     
     
         </section>
-         <section id="mission-wrapper">
+         <section id="mission-wrapper" style="background: white; ">
             <div class="promotional-section">HI </div>
             <div class="promotional-images">DIST</div>
     
@@ -101,7 +101,7 @@
      <div id="footer"> © 2019 Wasatch Firearm Network. <br> Utah Web Design and Utah SEO by Ranksey</div></section>
   
     </section>
-      <section id="promotional-wrapper">YOU
+      <section id="promotional-wrapper" >YOU
             <div class="promotional-section">HI </div>
             <div class="promotional-images">DIST</div>
     
