@@ -203,7 +203,35 @@
         width: 50%;
        
     }
+
+   
     
+}
+
+#browse-wrapper {
+    // display: inline;
+background:white; 
+height: 1000px; 
+padding: 100px;
+text-align: center;
+position: relative; 
+   #card {
+    background: white; 
+    display: inline-block;
+    margin: 10px;
+    height: 600px; 
+    width: 500px; 
+    img {
+        position:relative;
+        width: 100%;
+        z-index: 1; 
+        height: 500px; 
+        background-size: cover;
+        opacity: 1; 
+        object-fit: cover;
+    }
+   }
+
 }
 
 #footer-wrapper{

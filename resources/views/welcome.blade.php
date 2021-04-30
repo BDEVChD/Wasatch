@@ -69,16 +69,21 @@
         </section>
           <section id="classifieds-text">
             <div class="promotional-section">HI </div>
-            <div class="promotional-images">DIST</div>
+            <div class="promotional-images" >Browse Our Products</div>
     
     
             </section>
-          <section id="browse-wrapper">
-            <div id="card"></div>
-            <div id="card"></div>
-            <div id="card"></div>
-    
-    
+          <section id="browse-wrapper"  >
+            
+            <div id="card" style="col-md-4;">
+                <img  src="/img/shutterstock1.png">
+            </div>
+            <div id="card" style="col-md-4;">
+                <img  src="/img/shutterstock2.png">
+            </div>
+            <div id="card" style="col-md-4;">
+                <img  src="/img/shutterstock3.png">
+            </div>
         </section>
         <section id="values-wrapper">
             <div class="promotional-section">HI </div>

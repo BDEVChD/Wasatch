@@ -301,6 +301,33 @@ table {
   width: 50%;
 }
 
+#browse-wrapper {
+  background: white;
+  height: 1000px;
+  padding: 100px;
+  text-align: center;
+  position: relative;
+}
+
+#browse-wrapper #card {
+  background: white;
+  display: inline-block;
+  margin: 10px;
+  height: 600px;
+  width: 500px;
+}
+
+#browse-wrapper #card img {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  height: 500px;
+  background-size: cover;
+  opacity: 1;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 #footer-wrapper #footer {
   background: rgba(52, 55, 115, 0.8);
   text-align: center;
