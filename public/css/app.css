@@ -155,28 +155,39 @@ table {
 }
 
 #navsection {
-  height: 100px;
+  height: 50px;
   width: 100%;
   z-index: 4;
   position: relative;
-  background: linear-gradient(0deg, #d08d8d 0%, #af3a3a 0%);
+  top: 0;
+  left: 0;
+  background: #a63c3c;
 }
 
 #navsection .icon-hold {
   color: white;
-  padding: 10px;
+  padding: 10px 20px;
+}
+
+#navsection .icon-hold .icontext {
+  margin: 0px 20px;
+  font-size: 1.5rem;
+  font-weight: 550;
 }
 
 #navsection .fa {
-  padding: 10px;
+  padding: 12px 10px;
   color: white;
   font-size: 1.5rem;
+  display: block;
+  position: relative;
 }
 
 #navsection .logo-content {
   height: 300px;
   width: 100%;
   background: white;
+  display: block;
 }
 
 #bigone {
@@ -200,7 +211,7 @@ table {
 #bigtwo {
   background: white;
   text-align: center;
-  height: 300px;
+  height: 360px;
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
@@ -218,7 +229,7 @@ table {
 }
 
 #bigtwo a {
-  padding: 2px 10px;
+  padding: 2px 20px;
   font-family: "Libre Baskerville", serif;
   text-transform: capitalize;
   text-decoration: none;
@@ -237,7 +248,7 @@ table {
 }
 
 #bigtwo #bigstuff {
-  height: 900px;
+  height: 700px;
   width: 100%;
   color: white;
   text-align: right;
@@ -247,8 +258,50 @@ table {
   position: relative;
 }
 
+#bigtwo #bigstuff .bigtext {
+  margin-top: 10px;
+  font-size: 5rem;
+  font-family: "Domine", serif;
+  color: white;
+  display: flex;
+  justify-self: flex-end;
+  flex-direction: column;
+  width: 100%;
+  vertical-align: middle;
+  height: 100px;
+  align-content: space-between;
+}
+
+#bigtwo #bigstuff .button {
+  height: 30px;
+  margin-top: 30px;
+  font-size: 5rem;
+  font-family: "Domine", serif;
+  color: white;
+  display: flex;
+  justify-self: flex-end;
+  flex-direction: column;
+  width: 100%;
+  vertical-align: middle;
+  height: 100px;
+  align-content: space-between;
+}
+
+#bigtwo #bigstuff .button .yo {
+  width: 400px;
+  background: #A63C3C;
+  display: flex;
+  margin-left: 1280px;
+  font-size: 2rem;
+  padding: 30px 50px;
+  text-align: center;
+  font-family: "EB Garamond", serif;
+}
+
 #bigtwo #bigstuff #buy {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  font-family: "EB Garamond", serif;
+  font-weight: 50;
 }
 
 #footer-wrapper {
@@ -266,9 +319,42 @@ table {
   z-index: 10;
 }
 
-#promotional-wrapper .promotional-section-right {
-  padding-left: 180px;
+#promotional-wrapper .promotional-text-left {
+  width: 50%;
+  height: 800px;
+  display: flex;
+  background: white;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#promotional-wrapper .promotional-text-left .content-left {
+  background: white;
   height: 600px;
+  width: 700px;
+  transform: translate3d(100px, 0, 0);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  vertical-align: middle;
+  align-content: space-between;
+}
+
+#promotional-wrapper .promotional-text-left .content-left .inside {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  vertical-align: middle;
+  align-content: space-between;
+}
+
+#promotional-wrapper .promotional-section-right {
+  padding-left: 80px;
+  height: 800px;
   float: right;
   display: inline-block;
   color: black;
@@ -292,40 +378,134 @@ table {
   max-height: 100%;
 }
 
-#promotional-wrapper .promotional-text {
-  padding: 60px;
-  max-height: 100%;
-  display: inline-block;
+#classifieds-section {
   background: white;
-  color: white;
-  width: 50%;
+  display: flex;
+  justify-self: flex-end;
+  flex-direction: column;
+  padding: 150px;
+  width: 100%;
+  vertical-align: middle;
+  height: 100px;
+  align-content: space-between;
+  height: 600px;
+  position: relative;
+}
+
+#classifieds-section .classified-title {
+  text-align: left;
+  float: left;
+  color: #363973;
+  position: relative;
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: "EB Garamond", serif;
 }
 
 #browse-wrapper {
   background: white;
-  height: 1000px;
-  padding: 100px;
   text-align: center;
+  background: white;
+  justify-content: center;
   position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 150px;
+  width: 100%;
 }
 
 #browse-wrapper #card {
   background: white;
   display: inline-block;
-  margin: 10px;
-  height: 400px;
-  width: 300px;
+  box-shadow: 1px 5px 21px 0px rgba(0, 0, 0, 0.52);
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+  height: 500px;
+  width: 500px;
+  text-align: center;
 }
 
 #browse-wrapper #card img {
   position: relative;
   width: 100%;
   z-index: 1;
-  height: 300px;
+  top: 0;
+  left: 0;
+  height: 80%;
   background-size: cover;
   opacity: 1;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#browse-wrapper #card .blackbox {
+  background: black;
+  top: 0;
+  left: 0;
+  height: 400px;
+  width: 500px;
+  transform: translate3d(0, -1340px, 0);
+  z-index: 100;
+  top: 0;
+  left: 0;
+  position: relative;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  opacity: 0.5;
+  color: white;
+  font-size: 1.5rem;
+}
+
+#browse-wrapper #card .classified-text {
+  height: 100px;
+  width: 150px;
+  padding: 0px;
+  display: flex;
+  vertical-align: middle;
+  margin-left: 30%;
+  justify-content: center;
+  background: #A63C3C;
+  position: relative;
+  bottom: 80px;
+  visibility: hidden;
+  margin: 0 auto;
+}
+
+#browse-wrapper #card .classified-text:hover {
+  background: blue;
+}
+
+#browse-wrapper #card .info {
+  color: white;
+  padding: 80px;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, serif;
+  transform: translate3d(0, -1740px, 0);
+  z-index: 1000;
+  font-size: 3.5rem;
+  height: 400px;
+  width: 100%;
+  position: relative;
+  transition: all 0.4s ease-in;
+}
+
+#browse-wrapper #card .info:hover {
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  opacity: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  transform: translate3d(0, -1740px, 0);
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-size: 3.5rem;
 }
 
 #footer-wrapper #footer {
