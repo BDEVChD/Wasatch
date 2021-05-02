@@ -23,7 +23,7 @@
     </head>
     <body>
     
-     <img id="background-img" src="/img/Flag-Wood-Background.png" >
+     <img id="background-img" src="/img/darkened.png" >
      
     <div id="bigone">Need help posting an ad? <span class="click-text">Click Here.</span> </div>
     <section id="navsection">
@@ -34,14 +34,16 @@
             
         </div>         
     </section> 
-       <section id="navsection" style="  background: linear-gradient(180deg, rgba(166,60,60,1) 85%, rgba(124,33,33,1) 100%);
+     <section id="navsection" style="  background: linear-gradient(180deg, rgba(166,60,60,1) 85%, rgba(124,33,33,1) 100%);
     // background: linear-gradient(0deg, rgba(208,141,141,1) 0%, rgba(175,58,58,1) 0%);">
         <div class="icon-hold">
              <i class='fa fa-phone' style="position:relative; top: -10px; " >  <span class="icontext" >888-272-5338</span></i>
         </div> 
           
     </section> 
-    <section id="bigtwo">
+
+
+    <section id="logo-listing-container" style="text-align: center; ">
      <img style="height: 280px; width: 240px; padding: 20px 0; align-items: center;   " src="/img/WasatchMedium.png">
         <div id="nav-links"  >
             <a href="#"  >Home</a>
@@ -52,19 +54,15 @@
             <a href="#" >Contact Us</a>
         </div>
         <section id="bigstuff">
-          <span class="bigtext">Proud</span>
-        <span class="bigtext"> Patriotic </span>
-        <span class="bigtext">Responsible</span>
-       
-        <span id="buy">Buy, sell, and trade firearms in Utah.</span>
-        <div class="button">
-          <h3 class="yo" >
-        Utah Gun Classifieds </h3>
-        </div>
-      
+            <span class="bigtext">Proud</span>
+            <span class="bigtext"> Patriotic </span>
+            <span class="bigtext">Responsible</span>
         
-        
-        
+            <span id="buy">Buy, sell, and trade firearms in Utah.</span>
+            <div class="button">
+            <h3 class="yo" >
+            Utah Gun Classifieds </h3>
+            </div> 
         </section>
         <section id="promotional-wrapper">
             <div class="promotional-section-right">
@@ -83,16 +81,11 @@
                 <span class="inside" style="color:#363973; font-size: 2.4rem ">Victory Operational Works Holster</span>
                 <span class="inside" style="color:#A63C3C; ">EVERY TIME YOU POST WITH US!</span>
                 <span class="inside" style="color:#363973; ">
-The winner will have a choice of the Targets or holsters offered, or can upgrade and pay the difference for other items.</span>
-
-
- </div>
-            
-            </div>
-    
-    
+                    The winner will have a choice of the Targets or holsters offered, or can upgrade and pay the difference for other items.</span>
+                </div>         
+            </div>  
         </section>
-        <section id="classifieds-section">
+        <section id="classifieds-section" >
           <span class="classified-title" style="font-size: 3rem;" >Gun Classifieds in Utah</span> 
             <p class="classified-title">Wasatch Firearm Network is a free platform for Utah gun owners and businesses to safely buy, sell, and trade their personal firearms. We are passionate about our community and we welcome you to be part of it. We are passionate about our 2nd amendment rights, and believe we can combat gun control by doing our part as responsible gun owners</p>     
              <span style="color: #A63C3C">Our 2nd amendment is under attack! Please help us protect it by following all gun laws and only buying, selling, and trading with other proud, patriotic, responsible gun owners.</span>
@@ -100,7 +93,7 @@ The winner will have a choice of the Targets or holsters offered, or can upgrade
          
         </section>
 
-          <section id="browse-wrapper" >
+          <section id="browse-wrapper"  >
             
             <div id="card" style="col-md-4;">
                 <img  src="/img/shutterstock1.png">
@@ -110,8 +103,13 @@ The winner will have a choice of the Targets or holsters offered, or can upgrade
                      <div class="blackbox">
                      
                      </div>  
-                        <div class="info">Firearms & Ammo</div>
+                        <div class="info" >Firearms & Ammo
+                            <div class="button" >
+                            Raise
+                            </div>
+                        </div>
                         <div class="classified-text"  >View Classifieds</div>
+                        
 
                 </div>     
             </div>
@@ -148,35 +146,89 @@ The winner will have a choice of the Targets or holsters offered, or can upgrade
                 Utah Gun Network | Utah Gun Trader
                 </div> --}}
         </section>
-        <section id="values-wrapper" style="background: white; ">
-        Utah Gun Classifieds With A Purpose
-By The People, For The People.
-We Are Dedicated To Making A Difference.
-We believe in preserving the human right of self-defense.
-
-Our mission is to encourage and support private firearm ownership among respectful, law abiding, and patriotic citizens of the state of Utah.
-            <div class="promotional-section">More Than Just Classifieds. Our Values:
-PRIDE
-
-We are proud of our firearm heritage and who we are as Utah gun owners.
-
-PATRIOTISM
-
-We love our country, and are committed to preserving the constitution which guarantees individual liberty.
-
-RESPONSIBILITY
-
-The 2nd Amendment will be preserved or lost due to the actions of gun owners. We are here to empower our citizens to act responsibly to preserve it. </div>
-            <div class="promotional-images">DIST</div>
-    
-    
+           
+      
+        <section id="under-banner-values"  >
+            <div class="values-title">
+            More Than Just Classifieds. Our Values:
+            </div>
+            <div class="values-container">
+                  <div class="values-row" >
+                    <div class="values-left" style="padding-left: 50px; " >PRIDE</div>
+                    <div class="values-right" style="padding-left: 50px; ">We are proud of our firearm heritage and who we are as Utah gun owners. </div>
+                </div>
+                <div class="values-row" >
+                    <div class="values-left" style="padding-left: 50px; " >PATRIOTISM</div>
+                    <div class="values-right" style="padding-left: 50px; ">We love our country, and are committed to preserving the constitution which guarantees individual liberty. </div>
+                </div>
+                <div class="values-row" >
+                    <div class="values-left" style="padding-left: 50px; " >RESPONSIBILITY</div>
+                    <div class="values-right" style="padding-left: 50px; ">The 2nd Amendment will be preserved or lost due to the actions of gun owners. We are here to empower our citizens to act responsibly to preserve it. </div>
+                </div>
+                
+                
+            </div>
         </section>
+        <section id="lower-content-container" >
+            <div id="purpose-banner-container" >
+               Utah Gun Classifieds With A Purpose
+                    By The People, For The People.
+                    We Are Dedicated To Making A Difference.
+                    We believe in preserving the human right of self-defense.
+
+                    Our mission is to encourage and support private firearm ownership among respectful, law abiding, and patriotic citizens of the state of Utah.
+            </div>
+            <div id="resources-container" >       
+            </div>
+        </section>
+
+  <section id="under-banner-values"  >
+          
+            <div class="values-container">
+                <div class="values-row" >
+                    RESOURCES
+                </div>
+                <div style="text-align:left; display: flex;  ">
+                    Account Login <br>
+                    Create New Account<br>
+                    Terms of Use<br>
+                    Privacy Policy<br>
+                    Contact Us<br>
+                    Bill of Sale
+                </div>
+                
+                {{-- <div class="values-row" >
+                   CLASSIFIEDS 
+                </div>
+                <div style="text-align:left; display: flex; ">
+                View All Utah Gun Classifieds
+                Firearms & Ammo
+                Gear & Services
+                Parts & Accessories
+                Add Listing
+                Manage Listing</div> --}}
+                
+                
+                
+                
+            </div>
+        </section>
+
+
+
+
+
+
+
+
+
       
               <section id="footer-wrapper">
      <div id="footer"> © 2019 Wasatch Firearm Network. <br> Utah Web Design and Utah SEO by Ranksey</div></section>
   
     </section>
     
+   
     
 
   

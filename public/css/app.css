@@ -208,9 +208,8 @@ table {
   font-weight: 800;
 }
 
-#bigtwo {
+#logo-listing-container {
   background: white;
-  text-align: center;
   height: 360px;
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
@@ -221,14 +220,14 @@ table {
   padding-bottom: 50px;
 }
 
-#bigtwo #nav-links {
+#logo-listing-container #nav-links {
   position: relative;
   height: 150px;
   padding: 10px;
   justify-content: space-between;
 }
 
-#bigtwo a {
+#logo-listing-container a {
   padding: 2px 20px;
   font-family: "Libre Baskerville", serif;
   text-transform: capitalize;
@@ -242,12 +241,12 @@ table {
   font-size: 1.3rem;
 }
 
-#bigtwo a:hover {
+#logo-listing-container a:hover {
   color: #A63C3C;
   text-decoration: underline;
 }
 
-#bigtwo #bigstuff {
+#logo-listing-container #bigstuff {
   height: 700px;
   width: 100%;
   color: white;
@@ -258,7 +257,7 @@ table {
   position: relative;
 }
 
-#bigtwo #bigstuff .bigtext {
+#logo-listing-container #bigstuff .bigtext {
   margin-top: 10px;
   font-size: 5rem;
   font-family: "Domine", serif;
@@ -272,7 +271,7 @@ table {
   align-content: space-between;
 }
 
-#bigtwo #bigstuff .button {
+#logo-listing-container #bigstuff .button {
   height: 30px;
   margin-top: 30px;
   font-size: 5rem;
@@ -287,7 +286,7 @@ table {
   align-content: space-between;
 }
 
-#bigtwo #bigstuff .button .yo {
+#logo-listing-container #bigstuff .button .yo {
   width: 400px;
   background: #A63C3C;
   display: flex;
@@ -298,7 +297,7 @@ table {
   font-family: "EB Garamond", serif;
 }
 
-#bigtwo #bigstuff #buy {
+#logo-listing-container #bigstuff #buy {
   font-size: 2.5rem;
   font-family: "EB Garamond", serif;
   font-weight: 50;
@@ -354,11 +353,13 @@ table {
 
 #promotional-wrapper .promotional-section-right {
   padding-left: 80px;
-  height: 800px;
+  height: 600px;
   float: right;
   display: inline-block;
   color: black;
   width: 50%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #promotional-wrapper .promotional-section-right #box {
@@ -371,6 +372,8 @@ table {
   position: relative;
   right: -100px;
   display: block;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #promotional-wrapper .promotional-section-right #box img {
@@ -424,6 +427,8 @@ table {
   margin: 20px;
   height: 500px;
   width: 500px;
+  max-width: 100%;
+  max-height: 100%;
   text-align: center;
 }
 
@@ -438,6 +443,8 @@ table {
   opacity: 1;
   -o-object-fit: cover;
      object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 #browse-wrapper #card .blackbox {
@@ -451,12 +458,18 @@ table {
   top: 0;
   left: 0;
   position: relative;
-  display: block;
+  display: flex;
   justify-content: center;
   text-align: center;
   opacity: 0.5;
+  max-width: 100%;
+  max-height: 100%;
   color: white;
   font-size: 1.5rem;
+}
+
+#browse-wrapper #card .blackbox:hover {
+  background: green;
 }
 
 #browse-wrapper #card .classified-text {
@@ -522,4 +535,109 @@ table {
 }
 
 /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+#under-banner-values {
+  height: 100px;
+  width: 100%;
+}
+
+#under-banner-values .values-title {
+  padding: 150px;
+  background: white;
+  height: 50px;
+  width: 100%;
+  font-family: "EB Garamond", serif;
+  font-size: 3rem;
+  color: #363973;
+}
+
+#under-banner-values .values-container {
+  height: 400px;
+  width: 100%;
+  max-width: 100%;
+  background: white;
+  font-family: "EB Garamond", serif;
+}
+
+#under-banner-values .values-container .values-row {
+  height: 100px;
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+
+#under-banner-values .values-container .values-row .values-left {
+  display: inline-block;
+  background: white;
+  height: 50px;
+  font-size: 4rem;
+  color: #A63C3C;
+}
+
+#under-banner-values .values-container .values-row .values-right {
+  display: inline-block;
+  padding: 20px;
+  background: white;
+  height: 300px;
+  color: #363973;
+}
+
+#lower-content-container {
+  height: 900px;
+  width: 100%;
+  background-image: url("/img/blended.png");
+  opacity: 0.08;
+  background-repeat: no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  #under-banner-values {
+    height: 700px;
+    width: 100%;
+  }
+
+  #under-banner-values .values-title {
+    padding: 150px;
+    background: white;
+    height: 50px;
+    width: 100%;
+    font-family: "EB Garamond", serif;
+    font-size: 3rem;
+    color: #363973;
+  }
+
+  #under-banner-values .values-container {
+    height: 550px;
+    width: 100%;
+    max-width: 100%;
+    background: white;
+    font-family: "EB Garamond", serif;
+  }
+
+  #under-banner-values .values-container .values-row {
+    height: 100px;
+    display: flex;
+    position: relative;
+  }
+
+  #under-banner-values .values-container .values-row .values-left {
+    background: white;
+    position: relative;
+    width: 100%;
+    color: white;
+    max-height: 100%;
+  }
+
+  #under-banner-values .values-container .values-row .values-right {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    background: white;
+    max-height: 100%;
+  }
+}
 
