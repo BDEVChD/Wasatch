@@ -148,6 +148,7 @@ table {
   position: fixed;
   width: 100%;
   z-index: 1;
+  height: 100%;
   background-size: cover;
   opacity: 1;
   -o-object-fit: cover;
@@ -595,6 +596,17 @@ table {
 }
 
 @media (min-width: 0px) and (max-width: 767px) {
+  #background-img {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 100%;
+    background-size: cover;
+    opacity: 1;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
   #under-banner-values {
     height: 700px;
     width: 100%;
