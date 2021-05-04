@@ -23,7 +23,7 @@
     </head>
     <body>
     
-     <img id="background-img" src="/img/darkened.png" >
+     <img id="background-img">
      
     <div id="bigone">Need help posting an ad? <span class="click-text">Click Here.</span> </div>
     <section id="navsection">
@@ -60,7 +60,7 @@
         
             <span id="buy">Buy, sell, and trade firearms in Utah.</span>
             <div class="button">
-            <h3 class="yo" >
+            <h3 class="gun-classifieds-btn" >
             Utah Gun Classifieds </h3>
             </div> 
         </section>

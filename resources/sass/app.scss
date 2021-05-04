@@ -22,9 +22,12 @@
 #background-img {
     position:fixed;
     width: 100%;
+    min-width: 100%; 
+    max-width: 800px; 
     z-index: 1; 
     height: 100%; 
-    background-size: cover;
+    background: url("/img/darkened.png"); 
+    background-repeat: no-repeat center center;
     opacity: 1; 
 
     object-fit: cover;
@@ -63,8 +66,6 @@
         padding: 12px 10px; 
         color: white; 
         font-size: 1.5rem;
-        
-      
         display:block;  
         position: relative; 
         
@@ -168,29 +169,29 @@
   align-content: space-between;
     }
     .button {
-        height: 30px; 
-        // background: #A63C3C;
+        width: 300px;
+        height: 100px;
         margin-top: 30px;
-        font-size: 5rem;
+        font-size: 4rem;
         font-family: 'Domine', serif;
         color: white; 
-        display: flex;
-        justify-self: flex-end;
+        display: inline-block;
         flex-direction: column;
-        width: 100%; 
-        vertical-align: middle;
+        width: 30%; 
         height: 100px;
         align-content: space-between;
         
-        .yo {
+        .gun-classifieds-btn {
             // width: fit-content;
-            width: 400px;
+           
             background: #A63C3C;
-            display: flex; 
-           margin-left: 1280px; 
+            // display: flex; 
+           flex-direction: column; 
            font-size: 2rem;  
-          padding: 30px 50px;
+           height: 100px; 
+           padding: 10px; 
           text-align: center;
+          align-items: center;
            font-family: 'EB Garamond', serif;
 
         }
@@ -199,6 +200,7 @@
         font-size: 2.5rem; 
         font-family: 'EB Garamond', serif;
         font-weight: 50; 
+        display: inline-block; 
     }
     
 }
@@ -329,11 +331,11 @@ text-align: center;
 background: white; 
 justify-content: center;
 position: relative; 
-display: flex;
+display: inline-block;
 flex-direction: row; 
 justify-content: space-between;
 padding: 150px; 
-width: 100%; 
+width: 800px;  
 // margin: 0 auto; 
    #card {
     background: white; 
@@ -360,6 +362,7 @@ width: 100%;
         background-size: cover;
         opacity: 1; 
         object-fit: cover;
+        display: inline-block; 
         max-width: 100%;
         max-height: 100%;
     }
@@ -374,7 +377,7 @@ width: 100%;
         top: 0; 
         left: 0; 
         position: relative;
-        display: flex;  
+        display: inline-block;  
         justify-content: center;
         text-align: center;
         opacity: .5; 
@@ -550,10 +553,9 @@ width: 100%;
     position:fixed;
     width: 100%;
     z-index: 1; 
-    height: 100%; 
+    height: 500px; 
     background-size: cover;
     opacity: 1; 
-
     object-fit: cover;
 }
 
@@ -610,9 +612,68 @@ width: 100%;
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) {
+    #background-img {
+        position:fixed;
+        width: 100%;
+        z-index: 1; 
+        height: 500px; 
+        background-size: cover;
+        opacity: 1; 
+        object-fit: cover;
+    }
+    
+        #under-banner-values {
+            height: 700px; 
+            width: 100%; 
+            
+            .values-title {
+                padding: 150px; 
+                background: white;  
+                height: 50px; 
+                width: 100%;  
+                font-family: 'EB Garamond', serif;
+                font-size: 3rem;
+                color:#363973;
+                
+                
+               
+            }
+        
+            .values-container{
+                height: 550px;
+                width: 100%; 
+                max-width: 100%;
+                background: white; 
+                font-family: 'EB Garamond', serif;
+                .values-row{
+                    height: 100px; 
+                    display: flex;  
+                    position: relative; 
+                    .values-left {
+                         
+                        // padding: 20px 40px; 
+                        background: white; 
+                        position: relative;
+                        width: 100%; 
+                        color: white;  
+                        max-height: 100%;
+        
+                        // height: calc(100vh - 300px);
+                    }
+                    .values-right {
+                        display: block; 
+                        padding: 20px; 
+                        width: 100%; 
+                        background: white; 
+                        max-height: 100%;    
+                    }
+                }
+        
+               
+            }}
+      }
 
-
-  }
+  
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px) { 

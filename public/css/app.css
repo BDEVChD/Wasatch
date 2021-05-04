@@ -147,9 +147,12 @@ table {
 #background-img {
   position: fixed;
   width: 100%;
+  min-width: 100%;
+  max-width: 800px;
   z-index: 1;
   height: 100%;
-  background-size: cover;
+  background: url("/img/darkened.png");
+  background-repeat: no-repeat center center;
   opacity: 1;
   -o-object-fit: cover;
      object-fit: cover;
@@ -273,28 +276,27 @@ table {
 }
 
 #logo-listing-container #bigstuff .button {
-  height: 30px;
+  width: 300px;
+  height: 100px;
   margin-top: 30px;
-  font-size: 5rem;
+  font-size: 4rem;
   font-family: "Domine", serif;
   color: white;
-  display: flex;
-  justify-self: flex-end;
+  display: inline-block;
   flex-direction: column;
-  width: 100%;
-  vertical-align: middle;
+  width: 30%;
   height: 100px;
   align-content: space-between;
 }
 
-#logo-listing-container #bigstuff .button .yo {
-  width: 400px;
+#logo-listing-container #bigstuff .button .gun-classifieds-btn {
   background: #A63C3C;
-  display: flex;
-  margin-left: 1280px;
+  flex-direction: column;
   font-size: 2rem;
-  padding: 30px 50px;
+  height: 100px;
+  padding: 10px;
   text-align: center;
+  align-items: center;
   font-family: "EB Garamond", serif;
 }
 
@@ -302,6 +304,7 @@ table {
   font-size: 2.5rem;
   font-family: "EB Garamond", serif;
   font-weight: 50;
+  display: inline-block;
 }
 
 #footer-wrapper {
@@ -412,11 +415,11 @@ table {
   background: white;
   justify-content: center;
   position: relative;
-  display: flex;
+  display: inline-block;
   flex-direction: row;
   justify-content: space-between;
   padding: 150px;
-  width: 100%;
+  width: 800px;
 }
 
 #browse-wrapper #card {
@@ -444,6 +447,7 @@ table {
   opacity: 1;
   -o-object-fit: cover;
      object-fit: cover;
+  display: inline-block;
   max-width: 100%;
   max-height: 100%;
 }
@@ -459,7 +463,7 @@ table {
   top: 0;
   left: 0;
   position: relative;
-  display: flex;
+  display: inline-block;
   justify-content: center;
   text-align: center;
   opacity: 0.5;
@@ -600,7 +604,65 @@ table {
     position: fixed;
     width: 100%;
     z-index: 1;
-    height: 100%;
+    height: 500px;
+    background-size: cover;
+    opacity: 1;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+
+  #under-banner-values {
+    height: 700px;
+    width: 100%;
+  }
+
+  #under-banner-values .values-title {
+    padding: 150px;
+    background: white;
+    height: 50px;
+    width: 100%;
+    font-family: "EB Garamond", serif;
+    font-size: 3rem;
+    color: #363973;
+  }
+
+  #under-banner-values .values-container {
+    height: 550px;
+    width: 100%;
+    max-width: 100%;
+    background: white;
+    font-family: "EB Garamond", serif;
+  }
+
+  #under-banner-values .values-container .values-row {
+    height: 100px;
+    display: flex;
+    position: relative;
+  }
+
+  #under-banner-values .values-container .values-row .values-left {
+    background: white;
+    position: relative;
+    width: 100%;
+    color: white;
+    max-height: 100%;
+  }
+
+  #under-banner-values .values-container .values-row .values-right {
+    display: block;
+    padding: 20px;
+    width: 100%;
+    background: white;
+    max-height: 100%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #background-img {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 500px;
     background-size: cover;
     opacity: 1;
     -o-object-fit: cover;
