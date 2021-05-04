@@ -146,16 +146,12 @@ table {
 
 #background-img {
   position: fixed;
-  width: 100%;
+  width: calc(100vw-450px);
   min-width: 100%;
-  max-width: 800px;
   z-index: 1;
   height: 100%;
   background: url("/img/darkened.png");
   background-repeat: no-repeat center center;
-  opacity: 1;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 #navsection {
