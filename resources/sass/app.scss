@@ -25,7 +25,7 @@
 
 #background-img {
     position: fixed; 
-    width: calc(100vw-450px); 
+    max-width: calc(100vw-450px); 
     min-width: 100%; 
     z-index: 1; 
     height: 100%;  
@@ -37,8 +37,29 @@
 
 }
 
+
+#bigone {
+
+    background: white;
+    text-align: center; 
+    height: 100px; 
+    font-size: 1.3rem; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    width: 100%;
+    z-index: 10; 
+    position: relative; 
+    padding: 50px;  
+    .click-text {
+        text-decoration: underline;
+        font-weight: 900;
+        font-size: 1.5rem; 
+    }
+  }
+  
+
 #navsection {
-    height: 50px; 
+    height: 100px; 
     width: 100%; 
     z-index: 4; 
     position: relative; 
@@ -48,7 +69,7 @@
     // vertical-align: left;
     // justify-content: left;
     // margin-bottom: 20px;
-    background: rgb(166,60,60);
+    background: linear-gradient(180deg, rgba(166,60,60,1) 85%, rgba(124,33,33,1) 100%);
   
     .icon-hold {
         color: white; 
@@ -83,24 +104,6 @@
 }
 
 
-
-#bigone {
-
-  background: white;
-  text-align: center; 
-  height: 150px; 
-  font-size: 1.3rem; 
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 600;
-  width: 100%;
-  z-index: 10; 
-  position: relative; 
-  padding: 50px;  
-  .click-text {
-      text-decoration: underline;
-      font-weight: 800;
-  }
-}
 
 #logo-listing-container {
     
@@ -559,6 +562,11 @@ width: 800px;
     background-size: cover;
     opacity: 1; 
     object-fit: cover;
+}
+
+#navsection {
+    height: 50px; 
+    background: green; 
 }
 
     #under-banner-values {

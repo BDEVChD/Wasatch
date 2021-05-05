@@ -22,15 +22,15 @@
        
     </head>
     <body>
-    
      <img id="background-img">
-   
-
-
-
-
-
-        
-     
+    <div id="bigone">Need help posting an ad? <span class="click-text">Click Here.</span> </div>
+     <section id="navsection">
+        {{-- <div class="icon-hold">
+    
+            <i class="fa fa-envelope" style=" " aria-hidden="true"> 
+             <span class="icontext" style="position:absolute; left: 35px; ">wasatchfirearmnetwork@gmail.com</span></i> 
+            
+        </div>          --}}
+    </section> 
     </body>
 </html>
