@@ -144,17 +144,25 @@ table {
   height: 100vh;
 }
 
-#background-img {
+#content-top {
+  height: 1200px;
+  background: green;
+  z-index: 100;
+}
+
+#content-top #background-img {
   position: fixed;
   max-width: calc(100vw-450px);
+  transform: translate3d(0, 0, 0);
   min-width: 100%;
   z-index: 1;
   height: 100%;
   background: url("/img/darkened.png");
   background-repeat: no-repeat center center;
+  z-index: 50;
 }
 
-#bigone {
+#content-top #bigone {
   background: white;
   text-align: center;
   height: 100px;
@@ -162,12 +170,12 @@ table {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
   width: 100%;
-  z-index: 10;
+  z-index: 59;
   position: relative;
   padding: 50px;
 }
 
-#bigone .click-text {
+#content-top #bigone .click-text {
   text-decoration: underline;
   font-weight: 900;
   font-size: 1.5rem;
