@@ -22,8 +22,9 @@
        
     </head>
     <body>
-     <img id="background-img">
+  
     <div id="bigone">Need help posting an ad? <span class="click-text">Click Here.</span> </div>
+       <img id="background-img">
      <section id="navsection">
         {{-- <div class="icon-hold">
     
