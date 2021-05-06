@@ -140,30 +140,12 @@ table {
 }
 
 * {
+  box-sizing: border-box;
   height: 100vh;
 }
 
 body {
-  max-width: calc(100vh-100px);
   background: blue;
-}
-
-#top-container {
-  background: green;
-  padding: 0;
-  height: 100vh;
-  margin: 0 auto;
-  display: grid;
-}
-
-#top-container #background-img {
-  align-self: center;
-  position: relative;
-  height: calc(100vh-100px);
-  background: url("/img/darkened.png");
-  background-repeat: no-repeat center center;
-  -o-object-fit: cover;
-     object-fit: cover;
 }
 
 #top-container #top-ad-section {
@@ -334,120 +316,6 @@ body {
   font-family: "EB Garamond", serif;
 }
 
-#browse-wrapper {
-  background: white;
-  text-align: center;
-  background: white;
-  justify-content: center;
-  position: relative;
-  display: inline-block;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 150px;
-  width: 800px;
-}
-
-#browse-wrapper #card {
-  background: white;
-  display: inline-block;
-  box-shadow: 1px 5px 21px 0px rgba(0, 0, 0, 0.52);
-  justify-content: center;
-  text-align: center;
-  margin: 20px;
-  height: 500px;
-  width: 500px;
-  max-width: 100%;
-  max-height: 100%;
-  text-align: center;
-}
-
-#browse-wrapper #card img {
-  position: relative;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  height: 80%;
-  background-size: cover;
-  opacity: 1;
-  -o-object-fit: cover;
-     object-fit: cover;
-  display: inline-block;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-#browse-wrapper #card .blackbox {
-  background: black;
-  top: 0;
-  left: 0;
-  height: 400px;
-  width: 500px;
-  transform: translate3d(0, -1340px, 0);
-  z-index: 100;
-  top: 0;
-  left: 0;
-  position: relative;
-  display: inline-block;
-  justify-content: center;
-  text-align: center;
-  opacity: 0.5;
-  max-width: 100%;
-  max-height: 100%;
-  color: white;
-  font-size: 1.5rem;
-}
-
-#browse-wrapper #card .blackbox:hover {
-  background: green;
-}
-
-#browse-wrapper #card .classified-text {
-  height: 100px;
-  width: 150px;
-  padding: 0px;
-  display: flex;
-  vertical-align: middle;
-  margin-left: 30%;
-  justify-content: center;
-  background: #A63C3C;
-  position: relative;
-  bottom: 80px;
-  visibility: hidden;
-  margin: 0 auto;
-}
-
-#browse-wrapper #card .classified-text:hover {
-  background: blue;
-}
-
-#browse-wrapper #card .info {
-  color: white;
-  padding: 80px;
-  background: transparent;
-  display: flex;
-  justify-content: center;
-  font-family: Georgia, serif;
-  transform: translate3d(0, -1740px, 0);
-  z-index: 1000;
-  font-size: 3.5rem;
-  height: 400px;
-  position: relative;
-  transition: all 0.4s ease-in;
-}
-
-#browse-wrapper #card .info:hover {
-  transition: all 0.3s ease-in-out;
-  position: relative;
-  opacity: 0;
-  height: 100%;
-  display: flex;
-  transform: translate3d(0, -1740px, 0);
-  justify-content: center;
-  text-align: center;
-  color: white;
-  font-size: 3.5rem;
-}
-
 #footer-wrapper #footer {
   background: rgba(52, 55, 115, 0.8);
   text-align: center;
@@ -515,9 +383,12 @@ body {
 
 @media (min-width: 0px) and (max-width: 767px) {
   body {
-    background: red;
-    width: 500px;
-    display: block;
+    background: lightgrey;
+  }
+
+  body .test {
+    background: green;
+    padding: 50px;
   }
 
   #top-container {
@@ -543,24 +414,6 @@ body {
     text-decoration: none;
     font-weight: 900;
     font-size: 0.8rem;
-    max-width: 100vw;
-  }
-
-  #top-container #background-img {
-    position: relative;
-    position: absolute;
-    max-width: 100vw;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    z-index: 1;
-    background-size: cover;
-    overflow-x: hidden;
-    opacity: 1;
-    -o-object-fit: cover;
-       object-fit: cover;
-    visibility: none;
   }
 
   #top-container #navsection {

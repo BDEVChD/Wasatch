@@ -22,7 +22,9 @@
        
     </head>
     <body>
-        <div id="top-container">      
+
+    <div class="test">TEST</div>
+        {{-- <div id="top-container">      
             <div id="top-ad-section">Need help posting an ad?
                 <span class="click-text">Click Here.</span>
             </div>      
@@ -43,7 +45,7 @@
                 </div>   
             </div>         
         </section> 
-        <img id="background-img">
+        <img id="background-img"> --}}
         </div>
   
    
