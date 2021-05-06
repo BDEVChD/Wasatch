@@ -594,7 +594,14 @@ body {
      .test{
          background: green; 
          padding: 50px; 
+
+         .first{
+             padding: 50px; 
+             background: white; 
+         }
      }
+
+
     }
 //test content
 #top-container{
