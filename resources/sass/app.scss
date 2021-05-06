@@ -24,10 +24,10 @@
 
 
 #top-container {
-    max-width: 100%;
-    width: 100%; 
+    // max-width: 100%;
+    width: 700px;  
     height: 100%; 
-    // margin: 0 auto;     
+    margin: 0 auto;     
     // background: #272640;
     // background-repeat: no-repeat center center;
 // background: radial-gradient(circle, rgba(51,50,89,1) 33%, rgba(91,85,115,1) 100%);
@@ -40,10 +40,11 @@
 
     #background-img {
         position: fixed; 
-        max-width: calc(100vw-450px); 
+        max-width: 100%; 
+        // max-width: calc(100vw-450px); 
         // transform: translate3d(0,0, 0); 
-        min-width: 100%; 
-        height: 100%;  
+        // min-width: 100%; 
+        height: calc(100vh-100px);  
         background: url("/img/darkened.png"); 
         background-repeat: no-repeat center center;
         // display: flex; 
@@ -65,10 +66,10 @@
         font-weight: 600;
         width: 100%;
         z-index: 59; 
-        position: relative; 
-        padding: 50px; 
-        top: 0; 
-        left: 0;  
+        // position: relative; 
+        // padding: 50px; 
+        // top: 0; 
+        // left: 0;  
         .click-text {
             text-decoration: underline;
             font-weight: 900;
@@ -581,13 +582,15 @@ width: 800px;
 #top-container{
     height: 100%;
     width: 100%;
+    
 
     // background-attachment: fixed;
     // background-size: cover;
     // background-position: center center;
     #background-img {
-        position: absolute;
-        width: 300px; 
+        // position: relative;
+        position: absolute; 
+        min-width: 500px;  
         z-index: 1; 
         height: 700px; 
         background-size: cover;
@@ -606,6 +609,7 @@ width: 800px;
 #navsection {
     height: 50px; 
     background: green; 
+    min-width: 500px; 
 }
 
     #under-banner-values {
@@ -664,6 +668,7 @@ width: 800px;
     #content-top {
         height: 100%;
         width: 100%;
+        
         // background: url("/img/darkened.png"); 
         // background-attachment: fixed;
         // background-size: cover;
