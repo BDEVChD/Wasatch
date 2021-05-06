@@ -22,22 +22,29 @@
        
     </head>
     <body>
-
-    <div id="top-container">
-        
-        <div id="top-ad-section">Need help posting an ad?
-            <span class="click-text">Click Here.</span>
+        <div id="top-container">      
+            <div id="top-ad-section">Need help posting an ad?
+                <span class="click-text">Click Here.</span>
+            </div>      
+        <section id="navsection">
+            <div class="icon-hold">
+                <div class="row"> 
+                    <i class="fa fa-envelope" style=" " aria-hidden="true"> 
+                        <span class="icontext" style="position:absolute; left: 35px; ">
+                wasatchfirearmnetwork@gmail.com
+                        </span>
+                    </i> 
+                </div>
+                <div class="row"> 
+                    <i class="fa fa-envelope" style=" " aria-hidden="true"> 
+                        <span class="icontext" style="position:absolute; left: 35px; ">wasatchfirearmnetwork@gmail.com
+                        </span>
+                    </i> 
+                </div>   
+            </div>         
+        </section> 
+        <img id="background-img">
         </div>
-          <img id="background-img">
-      <section id="navsection">
-        <div class="icon-hold">
-    
-            <i class="fa fa-envelope" style=" " aria-hidden="true"> 
-             <span class="icontext" style="position:absolute; left: 35px; ">wasatchfirearmnetwork@gmail.com</span></i> 
-            
-        </div>         
-    </section> 
-    </div>
   
    
     
