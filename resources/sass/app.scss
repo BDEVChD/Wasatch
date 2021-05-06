@@ -582,7 +582,30 @@ width: 800px;
 #top-container{
     height: 100%;
     width: 100%;
-    
+    #top-ad-section {
+      
+
+        background: white;
+        text-align: center; 
+        padding: 20px; 
+     
+        height: 100px; 
+        font-size: .5rem; 
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        width: 100%;
+        z-index: 59; 
+        // position: relative; 
+        // padding: 50px; 
+        // top: 0; 
+        // left: 0;  
+        .click-text {
+            text-decoration: none; 
+            font-weight: 900;
+            font-size: .8rem; 
+            
+        }
+      }
 
     // background-attachment: fixed;
     // background-size: cover;
@@ -590,10 +613,16 @@ width: 800px;
     #background-img {
         // position: relative;
         position: absolute; 
-        min-width: 500px;  
+        min-width: 700px; 
+        max-width: 100%; 
+        margin: 0 auto; 
+        display: flex; 
+        justify-content: center;
+        text-align: center; 
         z-index: 1; 
         height: 700px; 
         background-size: cover;
+        overflow-x:hidden;
         opacity: 1; 
         object-fit: cover;
         visibility: none;
@@ -603,14 +632,20 @@ width: 800px;
         // background-size: cover;
         // background-position: center center;
     }
+    #navsection {
+        height: 50px; 
+        background: green; 
+        width: 700px; 
+        // margin: 0 auto; 
+        display: flex; 
+        font-size: 1rem; 
+        // justify-content: start;
+        text-align: center; 
+    }
 }
 
 
-#navsection {
-    height: 50px; 
-    background: green; 
-    min-width: 500px; 
-}
+
 
     #under-banner-values {
         height: 700px; 
@@ -665,17 +700,37 @@ width: 800px;
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) {
-    #content-top {
+    #top-container {
         height: 100%;
         width: 100%;
-        
+        #top-ad-section {
+      
+
+         
+            text-align: center; 
+            height: 100px; 
+            font-size: 1.3rem; 
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 600;
+            width: 100%;
+            z-index: 59; 
+            // position: relative; 
+            // padding: 50px; 
+            // top: 0; 
+            // left: 0;  
+            .click-text {
+                text-decoration: none; 
+                font-weight: 900;
+                font-size: 1.5rem; 
+            }
+          }
         // background: url("/img/darkened.png"); 
         // background-attachment: fixed;
         // background-size: cover;
         // background-position: center center;
         #background-img {
             position: absolute;
-            width: 780px; 
+            width: 100%; 
             z-index: 1; 
             height: 900px; 
             background-size: cover;
