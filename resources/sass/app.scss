@@ -23,7 +23,52 @@
 
 body {
     // max-width: calc(100vh-100px); 
-    background: blue; 
+    background: green; 
+
+    .test{
+        background: green; 
+        padding: 50px; 
+
+        .first{
+            padding: 50px; 
+            background: white; 
+            display: block; 
+            justify-content: center;
+            position: relative; 
+            .ad {
+                padding: 10px; 
+                background: pink; 
+                text-align: center;
+                display: block; 
+                position: relative; 
+                justify-content: center;
+                top: 0;
+                left: 0; 
+                height: 100px; 
+            }
+            .contacts{
+                padding: 10px;
+                background: lightseagreen;
+                display: block; 
+                flex-direction: row; 
+                position: relative; 
+                text-align: center;
+                justify-content: center;
+                height: 100px; 
+            }
+            // #background-img {
+            //     align-self: center;
+            //     position: fixed;
+            //     background: url("/img/darkened.png"); 
+            //     background-repeat: no-repeat center center;
+            //     object-fit: cover;
+            //     z-index: 1000; 
+            
+            // }
+        }
+
+    }
+
 }
 
 #top-container {
@@ -44,26 +89,23 @@ body {
     
     // z-index: 100;
 
-    // #background-img {
-    //     align-self: center;
-
-
-
-    //     position: relative; 
-    //     //max-width: 100%; 
-    //     // max-width: calc(100vw-450px); 
-    //     // transform: translate3d(0,0, 0); 
-    //     // width: 100%; 
-    //     height: calc(100vh-100px);  
-    //     background: url("/img/darkened.png"); 
-    //     background-repeat: no-repeat center center;
-    //     // display: flex; 
-    //     // z-index: 50; 
-    //     // opacity: 1; 
-    //     object-fit: cover;
+    #background-img {
+        align-self: center;
+        position: relative; 
+        //max-width: 100%; 
+        // max-width: calc(100vw-450px); 
+        // transform: translate3d(0,0, 0); 
+        // width: 100%; 
+        height: calc(100vh-100px);  
+        background: url("/img/darkened.png"); 
+        background-repeat: no-repeat center center;
+        // display: flex; 
+        // z-index: 50; 
+        // opacity: 1; 
+        object-fit: cover;
     
     
-    // }
+    }
 
     #top-ad-section {
       

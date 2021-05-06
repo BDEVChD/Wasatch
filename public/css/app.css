@@ -145,7 +145,53 @@ table {
 }
 
 body {
-  background: blue;
+  background: green;
+}
+
+body .test {
+  background: green;
+  padding: 50px;
+}
+
+body .test .first {
+  padding: 50px;
+  background: white;
+  display: block;
+  justify-content: center;
+  position: relative;
+}
+
+body .test .first .ad {
+  padding: 10px;
+  background: pink;
+  text-align: center;
+  display: block;
+  position: relative;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  height: 100px;
+}
+
+body .test .first .contacts {
+  padding: 10px;
+  background: lightseagreen;
+  display: block;
+  flex-direction: row;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+  height: 100px;
+}
+
+#top-container #background-img {
+  align-self: center;
+  position: relative;
+  height: calc(100vh-100px);
+  background: url("/img/darkened.png");
+  background-repeat: no-repeat center center;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #top-container #top-ad-section {

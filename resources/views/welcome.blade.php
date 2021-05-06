@@ -24,7 +24,19 @@
     <body>
 
     <div class="test">TEST
-        <div class="first">FIRST TEXT CENTER</div>
+        <div class="first">
+            FIRST TEXT CENTER
+       
+            <div class="ad">AD AD </div>
+            <div class="contacts" style="background: url('/img/darkened.png'); transform: translate3d(0,-550px,0); height: 1200px; position: fixed;">Contacts
+             </div>
+           
+            <div class="contacts" >Contacts2
+                 {{-- <img id="background-img">  --}}
+             </div>
+           
+        </div>
+         <div class="first">FIRST TEXT CENTER</div>
     
     
     
