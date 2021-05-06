@@ -14,19 +14,23 @@
 
 
 * {
-  box-sizing: border-box;
+//   box-sizing: border-box;
   height: 100vh; 
 
 //   background-attachment: fixed;
  
 }
 
-
+body {
+    max-width: calc(100vh-100px); 
+    background: blue; 
+}
 
 #top-container {
   
     width: 100%; 
-    max-width: calc(100vw-300px);
+    max-width: 100%; 
+    background: green; 
     padding: 0;   
     height: 100vh; 
     margin: 0 auto;  
@@ -584,11 +588,17 @@ width: 800px;
 
 @media (min-width: 0px) and (max-width: 767px){
 
+    body{
+        // max-width: calc(100vw-450px); 
+        background: red; 
+        padding: 50px; 
+        margin: 50px; 
+    }
 //test content
 #top-container{
     height: 100%;
-    width: 100%;
-    max-width: calc(100vw-300px); 
+    // width: 100vw;
+    // max-width: 100vw; 
     #top-ad-section {
       
 
@@ -600,17 +610,18 @@ width: 800px;
         font-size: .5rem; 
         font-family: Arial, Helvetica, sans-serif;
         font-weight: 600;
-        width: calc(100vw-200px);
+        // width:100vw; 
+        // max-width: 100vw;
         z-index: 59; 
-        // position: relative; 
-        // padding: 50px; 
-        // top: 0; 
-        // left: 0;  
+        position: relative; 
+        padding: 50px; 
+        top: 0; 
+        left: 0;  
         .click-text {
             text-decoration: none; 
             font-weight: 900;
             font-size: .8rem; 
-            max-width: calc(100vw-200px);
+            max-width: 100vw; 
             
         }
       }
@@ -619,10 +630,10 @@ width: 800px;
     // background-size: cover;
     // background-position: center center;
     #background-img {
-        // position: relative;
+        position: relative;
         position: absolute;  
-        max-width: calc(100vw-200px); 
-        margin: 0 auto; 
+        max-width: 100vw; 
+        margin: 0; 
         display: flex; 
         justify-content: center;
         text-align: center; 
@@ -642,7 +653,7 @@ width: 800px;
     #navsection {
         height: 50px; 
         background: green; 
-        max-width: 100vw;
+        // max-width: 100vw;
         // margin: 0 auto; 
         display: flex; 
         transform: translate3d(0, -400px, 0);
