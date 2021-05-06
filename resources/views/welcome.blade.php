@@ -23,18 +23,13 @@
     </head>
     <body>
 
-    <div id="content-top">
-        <img id="background-img">
-        <div id="bigone">Need help posting an ad?
-        <span class="click-text">Click Here.</span>
+    <div id="top-container">
         
+        <div id="top-ad-section">Need help posting an ad?
+            <span class="click-text">Click Here.</span>
         </div>
-     
-    </div>
-  
-   
-    
-     <section id="navsection">
+          <img id="background-img">
+      <section id="navsection">
         <div class="icon-hold">
     
             <i class="fa fa-envelope" style=" " aria-hidden="true"> 
@@ -42,5 +37,10 @@
             
         </div>         
     </section> 
+    </div>
+  
+   
+    
+    
     </body>
 </html>

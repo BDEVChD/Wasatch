@@ -23,30 +23,39 @@
 
 
 
-#content-top {
-    height: 1200px; 
-    background: green; 
-    z-index: 100;
+#top-container {
+    max-width: 100%;
+    width: 100%; 
+    height: 100%; 
+    // margin: 0 auto;     
+    // background: #272640;
+    // background-repeat: no-repeat center center;
+// background: radial-gradient(circle, rgba(51,50,89,1) 33%, rgba(91,85,115,1) 100%);
+    // background: url('/img/testshop.jpg');
+    // background: url("/img/darkened.png"); 
+    // background-attachment: fixed;
+    // background-size: cover;
+    
+    // z-index: 100;
 
     #background-img {
         position: fixed; 
         max-width: calc(100vw-450px); 
-        transform: translate3d(0,0, 0); 
+        // transform: translate3d(0,0, 0); 
         min-width: 100%; 
-        z-index: 1; 
         height: 100%;  
         background: url("/img/darkened.png"); 
         background-repeat: no-repeat center center;
         // display: flex; 
-        z-index: 50; 
+        // z-index: 50; 
         // opacity: 1; 
-        // object-fit: cover;
+        object-fit: cover;
     
     
     }
 
-    #bigone {
-   
+    #top-ad-section {
+      
 
         background: white;
         text-align: center; 
@@ -57,7 +66,9 @@
         width: 100%;
         z-index: 59; 
         position: relative; 
-        padding: 50px;  
+        padding: 50px; 
+        top: 0; 
+        left: 0;  
         .click-text {
             text-decoration: underline;
             font-weight: 900;
@@ -566,15 +577,31 @@ width: 800px;
 
 @media (min-width: 0px) and (max-width: 767px){
 
-#background-img {
-    position:fixed;
+//test content
+#top-container{
+    height: 100%;
     width: 100%;
-    z-index: 1; 
-    height: 500px; 
-    background-size: cover;
-    opacity: 1; 
-    object-fit: cover;
+
+    // background-attachment: fixed;
+    // background-size: cover;
+    // background-position: center center;
+    #background-img {
+        position: absolute;
+        width: 300px; 
+        z-index: 1; 
+        height: 700px; 
+        background-size: cover;
+        opacity: 1; 
+        object-fit: cover;
+        visibility: none;
+        // display: flex; 
+    
+        // background-attachment: fixed;
+        // background-size: cover;
+        // background-position: center center;
+    }
 }
+
 
 #navsection {
     height: 50px; 
@@ -634,6 +661,33 @@ width: 800px;
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) and (max-width: 991px) {
+    #content-top {
+        height: 100%;
+        width: 100%;
+        // background: url("/img/darkened.png"); 
+        // background-attachment: fixed;
+        // background-size: cover;
+        // background-position: center center;
+        #background-img {
+            position: absolute;
+            width: 780px; 
+            z-index: 1; 
+            height: 900px; 
+            background-size: cover;
+            opacity: 1; 
+            object-fit: cover;
+            visibility: none;
+            // display: flex; 
+        
+            // background-attachment: fixed;
+            // background-size: cover;
+            // background-position: center center;
+        }
+    }
+
+
+
+    /////////
     #background-img {
         position:fixed;
         width: 100%;
