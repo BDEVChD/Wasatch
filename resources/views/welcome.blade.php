@@ -46,8 +46,7 @@
            
            
         </div>
-         <div class="first">FIRST TEXT CENTER</div>
-    
+   
     
     
     
