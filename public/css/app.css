@@ -144,44 +144,35 @@ table {
   height: 100vh;
 }
 
-body .app-layout {
-  background: green;
-}
-
 body .app-layout .first {
   background: white;
   display: block;
   justify-content: center;
   position: relative;
+  height: 20%;
 }
 
 body .app-layout .first #top-ad-section {
-  background: green;
+  background: white;
   height: 10%;
   text-align: center;
-}
-
-body .app-layout .first .ad {
-  padding: 10px;
-  background: pink;
-  text-align: center;
-  display: block;
-  position: relative;
-  justify-content: center;
-  top: 0;
-  left: 0;
-  height: 100px;
+  padding: 50px;
 }
 
 body .app-layout .first .contacts {
   padding: 10px;
   background: lightseagreen;
-  display: block;
   flex-direction: row;
-  position: relative;
-  text-align: center;
-  justify-content: center;
-  height: 100px;
+}
+
+body .app-layout .first .contacts .mail-icon-row {
+  height: 10px;
+  padding: 0 80px;
+}
+
+body .app-layout .first .contacts .phone-icon-row {
+  height: 10px;
+  padding: 0 80px;
 }
 
 #top-container #background-img {
@@ -432,14 +423,16 @@ body .app-layout .first .contacts {
     background: lightgrey;
   }
 
-  body .test {
-    background: green;
-    padding: 50px;
+  body .app-layout .first {
+    height: 20%;
   }
 
-  body .test .first {
-    padding: 50px;
-    background: white;
+  body .app-layout .first .contacts .mail-icon-row {
+    display: inline-block;
+  }
+
+  body .app-layout .first .contacts .phone-icon-row {
+    display: inline-block;
   }
 
   #top-container {

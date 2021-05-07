@@ -17,49 +17,57 @@
   box-sizing: border-box;
   height: 100vh; 
 
-//   background-attachment: fixed;
  
 }
 
 body {
-    // max-width: calc(100vh-100px); 
 
     .app-layout{
-        background: green; 
-        // padding: 50px; 
-
         .first{
-            // padding: 50px; 
+         
             background: white; 
             display: block; 
             justify-content: center;
             position: relative; 
+            height: 20%; 
+            
             #top-ad-section {
-                background: green; 
+                background: white; 
                 height: 10%; 
                 text-align: center; 
+                padding: 50px; 
             }
-            .ad {
-                padding: 10px; 
-                background: pink; 
-                text-align: center;
-                display: block; 
-                position: relative; 
-                justify-content: center;
-                top: 0;
-                left: 0; 
-                height: 100px; 
-            }
+         
+            
             .contacts{
                 padding: 10px;
                 background: lightseagreen;
-                display: block; 
                 flex-direction: row; 
-                position: relative; 
-                text-align: center;
-                justify-content: center;
-                height: 100px; 
+                // height: 100px; 
+                // display: flex; 
+                // justify-content: center;
+
+                .mail-icon-row {
+                    height: 10px;      
+                    padding: 0 80px; 
+                }
+                .phone-icon-row {
+                    height: 10px; 
+                    padding: 0 80px; 
+                 
+                }
             }
+
+
+
+
+
+
+
+
+
+
+
             // #background-img {
             //     align-self: center;
             //     position: fixed;
@@ -638,13 +646,27 @@ body {
       
         background: lightgrey;  
         
-     .test{
-         background: green; 
-         padding: 50px; 
+     .app-layout{
+       
 
          .first{
-             padding: 50px; 
-             background: white; 
+             height: 20%;
+            .contacts{
+            
+                .mail-icon-row{
+                    display: inline-block; 
+                       
+              
+                 }
+    
+                 .phone-icon-row{
+                    display: inline-block; 
+                   
+                    // padding: 0 80px; 
+                 }
+            }
+          
+            
          }
      }
 

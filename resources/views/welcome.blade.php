@@ -26,18 +26,24 @@
     <div class="app-layout">
     
         <div class="first">
-            
-       
-            {{-- <div class="ad">AD AD </div> --}}
              <div id="top-ad-section">Need help posting an ad?
                 <span class="click-text">Click Here.</span>
             </div>     
-            <div class="contacts" >Contacts
+            <div class="contacts"  >
+                <div class="mail-icon-row" >
+                     <i class="fa fa-envelope"  aria-hidden="true"></i>
+                     <span style="margin-left: 20px; ">stafffs</span>
+                </div>
+                <div class="phone-icon-row" >
+                      <i class='fa fa-phone' ></i>
+                      <span style="margin-left: 20px; ">yummm</span>
+                </div>
+
+
+
              </div>
            
-            <div class="contacts" >Contacts2
-               
-             </div>
+           
            
         </div>
          <div class="first">FIRST TEXT CENTER</div>
@@ -46,6 +52,18 @@
     
     
     </div>
+
+
+  {{-- <div className={`dropdown ${this.state.dropdown ? 'active' : ''}`}>
+              <ul>
+                <nav>
+                  <a href="/account">account</a>
+                  <a href="/logout">logout</a>
+                </nav>
+              </ul>
+            </div> --}}
+
+
         {{-- <div id="top-container">      
             <div id="top-ad-section">Need help posting an ad?
                 <span class="click-text">Click Here.</span>
