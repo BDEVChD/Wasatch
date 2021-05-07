@@ -21,8 +21,9 @@
 }
 
 body {
-
+  
     .app-layout{
+      
         .first{
          
             background: white; 
@@ -68,7 +69,23 @@ body {
                  
                 }
             }
+            .background-img {
+                
+                position: relative; 
 
+                .img-test{
+                    background: url('/img/darkened.png');
+                    background-repeat: no-repeat;
+                    background-position-x: center;
+                    transform: translate3d(0, -200px, 0);
+                    margin: 0 auto; 
+                    z-index: -100; 
+                    position: fixed; 
+                    color: white; 
+                    width: 100vw; 
+                    
+                }
+            }
 
 
 
@@ -655,7 +672,7 @@ body {
 
     body{
       
-        background: white;
+        background:  lightgrey; 
         //make lightgrey soon ^  
         
      .app-layout{
@@ -663,7 +680,8 @@ body {
 
          .first{
              height: 20%;
-            //  background: white; 
+           
+           
             //  display: block; 
             //  justify-content: center;
             //  position: relative; 
@@ -674,6 +692,7 @@ body {
              position: relative; 
              display: grid; 
              grid-template-columns: 50% 50%;
+             
             //  flex-direction: column;
                 .mail-icon-row{
                     display: flex; 
@@ -685,11 +704,8 @@ body {
                         font-size: .6rem; 
                         vertical-align: center;
                         font-weight: 700;
-                    }
-                    
-              
+                    }            
                  }
-    
                  .phone-icon-row{
                     display: flex; 
                     // flex-direction: column;
@@ -701,10 +717,9 @@ body {
                         vertical-align: center;
                         font-weight: 700;
                     }
-                   
-                    
-                   
-                    // padding: 0 80px; 
+                 }
+                 img {
+                //    position: absolute;
                  }
             }
           
@@ -868,15 +883,15 @@ body {
         // background-attachment: fixed;
         // background-size: cover;
         // background-position: center center;
-        #background-img {
-            position: absolute;
-            // width: 100%; 
-            z-index: 1; 
-            height: 900px; 
-            background-size: cover;
-            opacity: 1; 
-            object-fit: cover;
-            visibility: none;
+        // #background-img {
+        //     position: absolute;
+        //     // width: 100%; 
+        //     z-index: 1; 
+        //     height: 900px; 
+        //     background-size: cover;
+        //     opacity: 1; 
+        //     object-fit: cover;
+        //     visibility: none;
             // display: flex; 
         
             // background-attachment: fixed;
@@ -888,15 +903,15 @@ body {
 
 
     /////////
-    #background-img {
-        position:fixed;
-        // width: 100%;
-        z-index: 1; 
-        height: 500px; 
-        background-size: cover;
-        opacity: 1; 
-        object-fit: cover;
-    }
+    // #background-img {
+    //     position:fixed;
+    //     // width: 100%;
+    //     z-index: 1; 
+    //     height: 500px; 
+    //     background-size: cover;
+    //     opacity: 1; 
+    //     object-fit: cover;
+    // }
     
         #under-banner-values {
             height: 700px; 
@@ -947,7 +962,7 @@ body {
         
                
             }}
-      }
+      
 
   
 

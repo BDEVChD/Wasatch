@@ -37,19 +37,27 @@
                 <div class="phone-icon-row" >
                       <i class='fa fa-phone' ></i>
                       <span style="margin-left: 20px; ">888-272-5338</span>
-                </div>
-
-
-
-             </div>
-           
-           
-           
+                </div>    
+            </div>
+            <div class="background-img">
+                     <div class="img-test">
+                        <div class="text-container">
+                        
+                         </div>       
+                     </div>     
+            </div>
+           <section id="bigstuff">
+            <span class="bigtext" style="color: white; ">Proud</span>
+            <span class="bigtext"> Patriotic </span>
+            <span class="bigtext">Responsible</span>
+        
+            <span id="buy">Buy, sell, and trade firearms in Utah.</span>
+            <div class="button">
+            <h3 class="gun-classifieds-btn" >
+            Utah Gun Classifieds </h3>
+            </div> 
+        </section>      
         </div>
-   
-    
-    
-    
     </div>
 
 

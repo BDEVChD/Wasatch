@@ -189,6 +189,22 @@ body .app-layout .first .contacts-container .phone-icon-row span {
   margin-top: 3px;
 }
 
+body .app-layout .first .background-img {
+  position: relative;
+}
+
+body .app-layout .first .background-img .img-test {
+  background: url("/img/darkened.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  transform: translate3d(0, -200px, 0);
+  margin: 0 auto;
+  z-index: -100;
+  position: fixed;
+  color: white;
+  width: 100vw;
+}
+
 #top-container #background-img {
   align-self: center;
   position: relative;
@@ -434,7 +450,7 @@ body .app-layout .first .contacts-container .phone-icon-row span {
 
 @media (min-width: 0px) and (max-width: 767px) {
   body {
-    background: white;
+    background: lightgrey;
   }
 
   body .app-layout .first {
@@ -528,28 +544,9 @@ body .app-layout .first .contacts-container .phone-icon-row span {
     font-weight: 900;
     font-size: 1.5rem;
   }
+}
 
-  #top-container #background-img {
-    position: absolute;
-    z-index: 1;
-    height: 900px;
-    background-size: cover;
-    opacity: 1;
-    -o-object-fit: cover;
-       object-fit: cover;
-    visibility: none;
-  }
-
-  #background-img {
-    position: fixed;
-    z-index: 1;
-    height: 500px;
-    background-size: cover;
-    opacity: 1;
-    -o-object-fit: cover;
-       object-fit: cover;
-  }
-
+@media (min-width: 0px) and (max-width: 767px) {
   #under-banner-values {
     height: 700px;
   }
