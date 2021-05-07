@@ -29,14 +29,14 @@
              <div id="top-ad-section">Need help posting an ad?
                 <span class="click-text">Click Here.</span>
             </div>     
-            <div class="contacts"  >
+            <div class="contacts-container">
                 <div class="mail-icon-row" >
                      <i class="fa fa-envelope"  aria-hidden="true"></i>
-                     <span style="margin-left: 20px; ">stafffs</span>
+                     <span style="margin-left: 20px; "> wasatchfirearmnetwork@gmail.com</span>
                 </div>
                 <div class="phone-icon-row" >
                       <i class='fa fa-phone' ></i>
-                      <span style="margin-left: 20px; ">yummm</span>
+                      <span style="margin-left: 20px; ">888-272-5338</span>
                 </div>
 
 

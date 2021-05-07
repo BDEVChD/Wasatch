@@ -159,20 +159,34 @@ body .app-layout .first #top-ad-section {
   padding: 50px;
 }
 
-body .app-layout .first .contacts {
+body .app-layout .first .contacts-container {
   padding: 10px;
-  background: lightseagreen;
+  background: linear-gradient(180deg, #a63c3c 85%, #7c2121 100%);
   flex-direction: row;
+  height: 100px;
 }
 
-body .app-layout .first .contacts .mail-icon-row {
+body .app-layout .first .contacts-container .mail-icon-row {
   height: 10px;
-  padding: 0 80px;
+  padding: 0 50px;
+  color: white;
+  margin-bottom: 20px;
 }
 
-body .app-layout .first .contacts .phone-icon-row {
+body .app-layout .first .contacts-container .mail-icon-row span {
+  margin-top: 3px;
+}
+
+body .app-layout .first .contacts-container .phone-icon-row {
   height: 10px;
-  padding: 0 80px;
+  padding: 0 50px;
+  color: white;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+body .app-layout .first .contacts-container .phone-icon-row span {
+  margin-top: 3px;
 }
 
 #top-container #background-img {
@@ -420,19 +434,42 @@ body .app-layout .first .contacts .phone-icon-row {
 
 @media (min-width: 0px) and (max-width: 767px) {
   body {
-    background: lightgrey;
+    background: white;
   }
 
   body .app-layout .first {
     height: 20%;
   }
 
-  body .app-layout .first .contacts .mail-icon-row {
-    display: inline-block;
+  body .app-layout .first .contacts-container {
+    position: relative;
+    display: grid;
+    grid-template-columns: 50% 50%;
   }
 
-  body .app-layout .first .contacts .phone-icon-row {
-    display: inline-block;
+  body .app-layout .first .contacts-container .mail-icon-row {
+    display: flex;
+    max-width: 50%;
+    padding: 10px;
+  }
+
+  body .app-layout .first .contacts-container .mail-icon-row span {
+    margin-left: 0;
+    font-size: 0.6rem;
+    vertical-align: center;
+    font-weight: 700;
+  }
+
+  body .app-layout .first .contacts-container .phone-icon-row {
+    display: flex;
+    padding: 0 20px;
+  }
+
+  body .app-layout .first .contacts-container .phone-icon-row span {
+    margin-left: 0;
+    font-size: 0.6rem;
+    vertical-align: center;
+    font-weight: 700;
   }
 
   #top-container {
