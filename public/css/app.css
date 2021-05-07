@@ -144,24 +144,24 @@ table {
   height: 100vh;
 }
 
-body {
+body .app-layout {
   background: green;
 }
 
-body .test {
-  background: green;
-  padding: 50px;
-}
-
-body .test .first {
-  padding: 50px;
+body .app-layout .first {
   background: white;
   display: block;
   justify-content: center;
   position: relative;
 }
 
-body .test .first .ad {
+body .app-layout .first #top-ad-section {
+  background: green;
+  height: 10%;
+  text-align: center;
+}
+
+body .app-layout .first .ad {
   padding: 10px;
   background: pink;
   text-align: center;
@@ -173,7 +173,7 @@ body .test .first .ad {
   height: 100px;
 }
 
-body .test .first .contacts {
+body .app-layout .first .contacts {
   padding: 10px;
   background: lightseagreen;
   display: block;

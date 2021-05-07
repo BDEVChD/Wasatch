@@ -22,17 +22,21 @@
        
     </head>
     <body>
-
-    <div class="test">TEST
+ 
+    <div class="app-layout">
+    
         <div class="first">
-            FIRST TEXT CENTER
+            
        
-            <div class="ad">AD AD </div>
-            <div class="contacts" style="background: url('/img/darkened.png'); transform: translate3d(0,-550px,0); height: 1200px; position: fixed;">Contacts
+            {{-- <div class="ad">AD AD </div> --}}
+             <div id="top-ad-section">Need help posting an ad?
+                <span class="click-text">Click Here.</span>
+            </div>     
+            <div class="contacts" >Contacts
              </div>
            
             <div class="contacts" >Contacts2
-                 {{-- <img id="background-img">  --}}
+               
              </div>
            
         </div>
