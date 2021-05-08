@@ -64,20 +64,25 @@
                    <img src="/img/darkened.png"  >        
                  </div>
              </section> 
-              <span class="bigtext" >Proud</span>
+             
+               <span class="bigtext" >Proud</span>
                 <span class="bigtext"> Patriotic </span>
                 <span class="bigtext">Responsible</span>
                 <span class="buy">Buy, sell, and trade firearms in Utah.</span>
                 <button class="button">
-                    <h3 class="gun-classifieds-btn" >
+                    <h3 class="gun-classifieds-btn"  >
                     Utah Gun Classifieds </h3>
                 </button> 
+             
+              
 
            
-            
+           
         </div>
+         
        
     </div>
+    
        
 
 
@@ -116,7 +121,7 @@
         </div>
   
    
-    
+    <section style="background: green; transform: translate3d(0, 400px, 0); "></section>
     
     </body>
 </html>

@@ -37,6 +37,10 @@ body {
                 height: 10%; 
                 text-align: center; 
                 padding: 50px; 
+                .click-text {
+                    text-decoration: underline;
+                    font-size: 1.2rem;
+                }
             }
 
             
@@ -156,23 +160,24 @@ body {
                 font-size: 3rem;
                 z-index: -100;         
                 position: fixed; 
-                max-width: 200px;
-                transform: translate3d(0, -100px, 0);
+              
+                
+                transform: translate3d(0, -300px, 0);
                    #background-img {
                         align-self: center;
                         position: fixed;
-                        
                         background: url("/img/darkened.png"); 
                         background-repeat: no-repeat center center;
                         object-fit: cover;
                         z-index: -100; 
+                       
         
         }
                 // position: relative; 
                 
         }
         .bigtext {
-            
+            overflow-y: hidden;
             margin-top: -20px;
             font-size: 3.5rem;
             line-height: 1;
@@ -197,6 +202,7 @@ body {
         }
         .buy{
             display: flex;
+            overflow-y: hidden;
             align-items: flex-end;
             justify-self: flex-end;
             position: relative; 
@@ -221,13 +227,15 @@ body {
         
         .button{
             // display: flex;
-            display: grid; 
+            overflow-y: hidden;
+            display: flex;
             align-items: flex-end;
             background: transparent; 
             border: none; 
             width: 100%; 
             justify-self: flex-end;
             position: relative; 
+
             flex-direction: column;
             grid-template-columns: 1fr 2fr;
             padding-right: 100px;
@@ -243,7 +251,7 @@ body {
             display: inline-block; 
             color: white;
             .gun-classifieds-btn{
-
+                overflow-y: hidden;
                 background: #A63C3C;
                 position: relative;
                 width: auto;
@@ -251,6 +259,7 @@ body {
                 text-align: center;
                 padding: 10px; 
                 margin: 20px;
+            
                 height: 50px;
                 &:hover {
                     background: #343773;
