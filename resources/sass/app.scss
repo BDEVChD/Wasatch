@@ -38,6 +38,127 @@ body {
                 text-align: center; 
                 padding: 50px; 
             }
+
+            
+                #bigstuff {
+                    height: 500px; 
+                   width: 100vw; 
+                    color: white; 
+                    text-align: right;
+                    font-size: 3rem;
+                    z-index: -100; 
+                    // background: url('/img/darkened.png');
+                    // background: green; 
+                  
+                    position: fixed; 
+                    transform: translate3d(0, -100px, 0);
+                       #background-img {
+                align-self: center;
+                position: fixed;
+                
+                background: url("/img/darkened.png"); 
+                background-repeat: no-repeat center center;
+                object-fit: cover;
+                z-index: -100; 
+            
+            }
+                    // position: relative; 
+                    
+            }
+            .bigtext {
+                
+                margin-top: -20px;
+                font-size: 3.5rem;
+                line-height: 1;
+                font-family: 'EB Garamond', serif;
+                color: black; 
+                display: flex;
+                align-items: flex-end;
+                color: white;
+                padding: 50px; 
+                justify-self: flex-end;
+                position: relative; 
+                flex-direction: column;
+                // width: 100%; 
+                padding-right: 100px; 
+                text-align: right;
+                height: 100px;
+                align-content: space-between;
+                display: inline-block; 
+                width: 100vw;
+                vertical-align: right;
+               
+            }
+            .buy{
+                display: flex;
+                align-items: flex-end;
+              
+                justify-self: flex-end;
+                position: relative; 
+                flex-direction: column;
+                // width: 100%; 
+                padding-right: 100px; 
+                text-align: right;
+                height: 100px;
+                align-content: space-between;
+                display: inline-block; 
+                width: 100vw;
+                vertical-align: right;
+                line-height: 4.8;
+                font-size: 1.5rem; 
+                font-family: 'EB Garamond', serif;
+                font-weight: 50; 
+                vertical-align: right;
+                text-align: right;
+                display: inline-block; 
+                color: white;
+            }
+            
+            .button{
+                // display: flex;
+                display: grid; 
+                align-items: flex-end;
+              background: transparent; 
+              border: none; 
+              width: 100%; 
+                justify-self: flex-end;
+                position: relative; 
+                flex-direction: column;
+                grid-template-columns: 1fr 2fr;
+             padding-right: 100px; 
+                // text-align: right;
+                height: 100px;
+                align-content: space-between;
+                display: inline-block; 
+                // width: 100vw;
+                // padding: 10px;
+                vertical-align: right;
+                font-size: 1.5rem; 
+                font-family: 'EB Garamond', serif;
+                font-weight: 50; 
+                vertical-align: right;
+                text-align: right;
+                display: inline-block; 
+                color: white;
+                .gun-classifieds-btn{
+
+                    background: #A63C3C;
+                    position: relative;
+                    width: auto;
+                    text-align: center;
+                    padding: 10px; 
+                    // display: flex; 
+                    // padding-right: 100px;
+                    // justify-content: flex-end;
+                    // align-items: flex-end;
+                    margin: 20px;
+                    height: 50px;
+                    
+                }
+            }
+
+
+           
          
             
             .contacts-container{
@@ -69,44 +190,41 @@ body {
                  
                 }
             }
-            .background-img {
+            // .background-img {
                 
-                position: relative; 
-
-                .img-test{
-                    background: url('/img/darkened.png');
-                    background-repeat: no-repeat;
-                    background-position-x: center;
-                    transform: translate3d(0, -200px, 0);
-                    margin: 0 auto; 
-                    z-index: -100; 
-                    position: fixed; 
-                    color: white; 
-                    width: 100vw; 
-                    
-                }
-            }
-
-
-
-
-
-
-
-
-
-
-            // #background-img {
-            //     align-self: center;
-            //     position: fixed;
-            //     background: url("/img/darkened.png"); 
-            //     background-repeat: no-repeat center center;
-            //     object-fit: cover;
-            //     z-index: 1000; 
             
-            // }
-        }
 
+            //     .img-test{
+            //         background: url('/img/darkened.png');
+            //         background-repeat: no-repeat;
+            //         background-position-x: center;
+            //         transform: translate3d(0, -200px, 0);
+            //         margin: 0 auto; 
+            //         z-index: -100; 
+            //         position: relative;
+            //         width: 100vw; 
+            //         max-width: 100%;
+            //         color: white; 
+                    
+                    
+            //     }
+            // }
+
+            
+            
+
+
+
+
+
+
+
+
+
+
+         
+        }
+        
     }
 
 }
@@ -317,12 +435,12 @@ body {
 
         }
     }
-    #buy {
-        font-size: 2.5rem; 
-        font-family: 'EB Garamond', serif;
-        font-weight: 50; 
-        display: inline-block; 
-    }
+    // #buy {
+    //     font-size: 2.5rem; 
+    //     font-family: 'EB Garamond', serif;
+    //     font-weight: 50; 
+    //     display: inline-block; 
+    // }
     
 }
 

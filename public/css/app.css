@@ -159,6 +159,106 @@ body .app-layout .first #top-ad-section {
   padding: 50px;
 }
 
+body .app-layout .first #bigstuff {
+  height: 500px;
+  width: 100vw;
+  color: white;
+  text-align: right;
+  font-size: 3rem;
+  z-index: -100;
+  position: fixed;
+  transform: translate3d(0, -100px, 0);
+}
+
+body .app-layout .first #bigstuff #background-img {
+  align-self: center;
+  position: fixed;
+  background: url("/img/darkened.png");
+  background-repeat: no-repeat center center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -100;
+}
+
+body .app-layout .first .bigtext {
+  margin-top: -20px;
+  font-size: 3.5rem;
+  line-height: 1;
+  font-family: "EB Garamond", serif;
+  color: black;
+  display: flex;
+  align-items: flex-end;
+  color: white;
+  padding: 50px;
+  justify-self: flex-end;
+  position: relative;
+  flex-direction: column;
+  padding-right: 100px;
+  text-align: right;
+  height: 100px;
+  align-content: space-between;
+  display: inline-block;
+  width: 100vw;
+  vertical-align: right;
+}
+
+body .app-layout .first .buy {
+  display: flex;
+  align-items: flex-end;
+  justify-self: flex-end;
+  position: relative;
+  flex-direction: column;
+  padding-right: 100px;
+  text-align: right;
+  height: 100px;
+  align-content: space-between;
+  display: inline-block;
+  width: 100vw;
+  vertical-align: right;
+  line-height: 4.8;
+  font-size: 1.5rem;
+  font-family: "EB Garamond", serif;
+  font-weight: 50;
+  vertical-align: right;
+  text-align: right;
+  display: inline-block;
+  color: white;
+}
+
+body .app-layout .first .button {
+  display: grid;
+  align-items: flex-end;
+  background: transparent;
+  border: none;
+  width: 100%;
+  justify-self: flex-end;
+  position: relative;
+  flex-direction: column;
+  grid-template-columns: 1fr 2fr;
+  padding-right: 100px;
+  height: 100px;
+  align-content: space-between;
+  display: inline-block;
+  vertical-align: right;
+  font-size: 1.5rem;
+  font-family: "EB Garamond", serif;
+  font-weight: 50;
+  vertical-align: right;
+  text-align: right;
+  display: inline-block;
+  color: white;
+}
+
+body .app-layout .first .button .gun-classifieds-btn {
+  background: #A63C3C;
+  position: relative;
+  width: auto;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+  height: 50px;
+}
+
 body .app-layout .first .contacts-container {
   padding: 10px;
   background: linear-gradient(180deg, #a63c3c 85%, #7c2121 100%);
@@ -187,22 +287,6 @@ body .app-layout .first .contacts-container .phone-icon-row {
 
 body .app-layout .first .contacts-container .phone-icon-row span {
   margin-top: 3px;
-}
-
-body .app-layout .first .background-img {
-  position: relative;
-}
-
-body .app-layout .first .background-img .img-test {
-  background: url("/img/darkened.png");
-  background-repeat: no-repeat;
-  background-position-x: center;
-  transform: translate3d(0, -200px, 0);
-  margin: 0 auto;
-  z-index: -100;
-  position: fixed;
-  color: white;
-  width: 100vw;
 }
 
 #top-container #background-img {
@@ -346,13 +430,6 @@ body .app-layout .first .background-img .img-test {
   text-align: center;
   align-items: center;
   font-family: "EB Garamond", serif;
-}
-
-#logo-listing-container #bigstuff #buy {
-  font-size: 2.5rem;
-  font-family: "EB Garamond", serif;
-  font-weight: 50;
-  display: inline-block;
 }
 
 #footer-wrapper {
