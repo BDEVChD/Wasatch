@@ -525,7 +525,7 @@ body .app-layout .first .button .gun-classifieds-btn:hover {
 
 @media (min-width: 0px) and (max-width: 767px) {
   body {
-    background: lightgrey;
+    background: white;
   }
 
   body .app-layout .first {
@@ -537,6 +537,7 @@ body .app-layout .first .button .gun-classifieds-btn:hover {
   }
 
   body .app-layout .first .buy {
+    overflow: hidden;
     display: flex;
     align-items: flex-end;
     justify-self: flex-end;
@@ -560,6 +561,7 @@ body .app-layout .first .button .gun-classifieds-btn:hover {
   }
 
   body .app-layout .first .button {
+    overflow: hidden;
     display: grid;
     align-items: flex-end;
     background: transparent;
@@ -569,7 +571,7 @@ body .app-layout .first .button .gun-classifieds-btn:hover {
     position: relative;
     flex-direction: column;
     grid-template-columns: 1fr 2fr;
-    padding: 50px;
+    padding: 40px 40px;
     height: 100px;
     align-content: space-between;
     display: inline-block;

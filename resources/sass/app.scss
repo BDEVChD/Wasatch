@@ -742,7 +742,7 @@ body {
 
     body{
       
-        background:  lightgrey; 
+        background:  white;
         //make lightgrey soon ^  
         
      .app-layout{
@@ -750,11 +750,16 @@ body {
 
          .first{
              height: 20%;
+             
          .bigtext{
              padding: 50px; 
+            
+             
          }
            
             .buy{
+               
+                overflow: hidden; 
                 display: flex;
                 align-items: flex-end;
                 justify-self: flex-end;
@@ -780,7 +785,7 @@ body {
             }
             
             .button{
-              
+                overflow:hidden;
                 display: grid; 
                 align-items: flex-end;
                 background: transparent; 
@@ -790,7 +795,7 @@ body {
                 position: relative; 
                 flex-direction: column;
                 grid-template-columns: 1fr 2fr;
-                padding: 50px;
+                padding: 40px 40px;
                 height: 100px;
                 align-content: space-between;
                 display: inline-block; 
@@ -804,7 +809,7 @@ body {
                 color: white;
                
                 .gun-classifieds-btn{
-
+            
                     background: #A63C3C;
                     position: relative;
                     width: auto;

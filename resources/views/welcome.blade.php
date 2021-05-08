@@ -69,10 +69,12 @@
                 <span class="bigtext"> Patriotic </span>
                 <span class="bigtext">Responsible</span>
                 <span class="buy">Buy, sell, and trade firearms in Utah.</span>
+             
                 <button class="button">
                     <h3 class="gun-classifieds-btn"  >
                     Utah Gun Classifieds </h3>
                 </button> 
+                
              
               
 
