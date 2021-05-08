@@ -253,9 +253,20 @@ body .app-layout .first .button .gun-classifieds-btn {
   background: #A63C3C;
   position: relative;
   width: auto;
+  transition: all 0.3s ease-in-out;
   text-align: center;
   padding: 10px;
   margin: 20px;
+  height: 50px;
+}
+
+body .app-layout .first .button .gun-classifieds-btn:hover {
+  background: #343773;
+  transition: all 0.3s ease-in-out;
+  width: auto;
+  color: white;
+  font-size: 1.8rem;
+  text-decoration: underline;
   height: 50px;
 }
 
@@ -532,6 +543,77 @@ body .app-layout .first .contacts-container .phone-icon-row span {
 
   body .app-layout .first {
     height: 20%;
+  }
+
+  body .app-layout .first .bigtext {
+    padding: 50px;
+  }
+
+  body .app-layout .first .buy {
+    display: flex;
+    align-items: flex-end;
+    justify-self: flex-end;
+    position: relative;
+    flex-direction: column;
+    padding: 50px;
+    text-align: right;
+    height: 100px;
+    align-content: space-between;
+    display: inline-block;
+    width: 100vw;
+    vertical-align: right;
+    line-height: 4.8;
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    font-weight: 50;
+    vertical-align: right;
+    text-align: right;
+    display: inline-block;
+    color: white;
+  }
+
+  body .app-layout .first .button {
+    display: grid;
+    align-items: flex-end;
+    background: transparent;
+    border: none;
+    width: 100%;
+    justify-self: flex-end;
+    position: relative;
+    flex-direction: column;
+    grid-template-columns: 1fr 2fr;
+    padding: 50px;
+    height: 100px;
+    align-content: space-between;
+    display: inline-block;
+    vertical-align: right;
+    font-size: 1rem;
+    font-family: "EB Garamond", serif;
+    font-weight: 50;
+    vertical-align: right;
+    text-align: right;
+    display: inline-block;
+    color: white;
+  }
+
+  body .app-layout .first .button .gun-classifieds-btn {
+    background: #A63C3C;
+    position: relative;
+    width: auto;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    height: 50px;
+  }
+
+  body .app-layout .first .button .gun-classifieds-btn:hover {
+    background: #343773;
+    transition: all 0.3s ease-in-out;
+    width: auto;
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    height: 50px;
   }
 
   body .app-layout .first .contacts-container {

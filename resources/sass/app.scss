@@ -92,7 +92,6 @@ body {
             .buy{
                 display: flex;
                 align-items: flex-end;
-              
                 justify-self: flex-end;
                 position: relative; 
                 flex-direction: column;
@@ -118,20 +117,17 @@ body {
                 // display: flex;
                 display: grid; 
                 align-items: flex-end;
-              background: transparent; 
-              border: none; 
-              width: 100%; 
+                background: transparent; 
+                border: none; 
+                width: 100%; 
                 justify-self: flex-end;
                 position: relative; 
                 flex-direction: column;
                 grid-template-columns: 1fr 2fr;
-             padding-right: 100px; 
-                // text-align: right;
+                padding-right: 100px;
                 height: 100px;
                 align-content: space-between;
                 display: inline-block; 
-                // width: 100vw;
-                // padding: 10px;
                 vertical-align: right;
                 font-size: 1.5rem; 
                 font-family: 'EB Garamond', serif;
@@ -145,14 +141,21 @@ body {
                     background: #A63C3C;
                     position: relative;
                     width: auto;
+                    transition: all .3s ease-in-out;
                     text-align: center;
                     padding: 10px; 
-                    // display: flex; 
-                    // padding-right: 100px;
-                    // justify-content: flex-end;
-                    // align-items: flex-end;
                     margin: 20px;
                     height: 50px;
+                    &:hover {
+                        background: #343773;
+                        transition: all .3s ease-in-out;
+                        width: auto; 
+                        color: white; 
+                        font-size: 1.8rem;
+                        text-decoration: underline;
+                        
+                        height: 50px;  
+                    }
                     
                 }
             }
@@ -798,12 +801,88 @@ body {
 
          .first{
              height: 20%;
-           
+         .bigtext{
+             padding: 50px; 
+         }
            
             //  display: block; 
             //  justify-content: center;
             //  position: relative; 
-           
+            .buy{
+                display: flex;
+                align-items: flex-end;
+                justify-self: flex-end;
+                position: relative; 
+                flex-direction: column;
+                // width: 100%; 
+                padding: 50px;
+                text-align: right;
+                height: 100px;
+                align-content: space-between;
+                display: inline-block; 
+                width: 100vw;
+                vertical-align: right;
+                line-height: 4.8;
+                font-size: 1rem; 
+                font-family: 'EB Garamond', serif;
+                font-weight: 50; 
+                vertical-align: right;
+                text-align: right;
+                display: inline-block; 
+                color: white;
+
+            }
+            
+            .button{
+                // display: flex;
+                display: grid; 
+                align-items: flex-end;
+              background: transparent; 
+              border: none; 
+              width: 100%; 
+                justify-self: flex-end;
+                position: relative; 
+                flex-direction: column;
+                grid-template-columns: 1fr 2fr;
+             padding: 50px;
+                // text-align: right;
+                height: 100px;
+                align-content: space-between;
+                display: inline-block; 
+                // width: 100vw;
+                // padding: 10px;
+                vertical-align: right;
+                font-size: 1rem; 
+                font-family: 'EB Garamond', serif;
+                font-weight: 50; 
+                vertical-align: right;
+                text-align: right;
+                display: inline-block; 
+                color: white;
+               
+                .gun-classifieds-btn{
+
+                    background: #A63C3C;
+                    position: relative;
+                    width: auto;
+                    text-align: center;
+                    padding: 10px; 
+                    margin: 20px;
+                    height: 50px;
+                    &:hover {
+                        background: #343773;
+                        transition: all .3s ease-in-out;
+                        width: auto; 
+                        color: white; 
+                        font-size: 1.5rem;
+                        text-decoration: underline;
+                        
+                        height: 50px;  
+                    }
+                    
+                    
+                }
+            }
              
            
             .contacts-container{
@@ -836,9 +915,7 @@ body {
                         font-weight: 700;
                     }
                  }
-                 img {
-                //    position: absolute;
-                 }
+               
             }
           
             
