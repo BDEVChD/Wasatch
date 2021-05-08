@@ -26,7 +26,7 @@
     <div class="app-layout">
     
         <div class="first">
-             <div id="top-ad-section">Need help posting an ad?
+            <div id="top-ad-section">Need help posting an ad?
                 <span class="click-text">Click Here.</span>
             </div>     
             <div class="contacts-container">
@@ -39,6 +39,26 @@
                       <span style="margin-left: 20px; ">888-272-5338</span>
                 </div>    
             </div>
+             <section id="logo-listing-container" style="">
+                <img  src="/img/WasatchMedium.png">
+               
+                {{-- <div id="nav-links"  >
+                    <a href="#"  >Home</a>
+                    <a href="#">Utah Gun Classifieds</a>
+                    <span><a href="#">Categories <i class="fa fa-caret-down"></i> </a></span>
+                    <a href="#">Add Listing</a>
+                    <a href="#">Manage Listing</a>
+                    <a href="#" >Contact Us</a>
+                </div> --}}
+            <a href="#" class="login">Login
+            </a>
+            <a href="#" class="burger"><i class="fa fa-bars"></i>
+            </a>
+            
+            </section>
+
+
+
               <section id="bigstuff" style="">
                 <div class="background-img" >
                    <img src="/img/darkened.png"  >        

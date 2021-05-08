@@ -40,126 +40,7 @@ body {
             }
 
             
-                #bigstuff {
-                    height: 500px; 
-                   width: 100vw; 
-                    color: white; 
-                    text-align: right;
-                    font-size: 3rem;
-                    z-index: -100; 
-                    // background: url('/img/darkened.png');
-                    // background: green; 
-                  
-                    position: fixed; 
-                    transform: translate3d(0, -100px, 0);
-                       #background-img {
-                align-self: center;
-                position: fixed;
-                
-                background: url("/img/darkened.png"); 
-                background-repeat: no-repeat center center;
-                object-fit: cover;
-                z-index: -100; 
-            
-            }
-                    // position: relative; 
-                    
-            }
-            .bigtext {
-                
-                margin-top: -20px;
-                font-size: 3.5rem;
-                line-height: 1;
-                font-family: 'EB Garamond', serif;
-                color: black; 
-                display: flex;
-                align-items: flex-end;
-                color: white;
-                padding: 50px; 
-                justify-self: flex-end;
-                position: relative; 
-                flex-direction: column;
-                // width: 100%; 
-                padding-right: 100px; 
-                text-align: right;
-                height: 100px;
-                align-content: space-between;
-                display: inline-block; 
-                width: 100vw;
-                vertical-align: right;
-               
-            }
-            .buy{
-                display: flex;
-                align-items: flex-end;
-                justify-self: flex-end;
-                position: relative; 
-                flex-direction: column;
-                // width: 100%; 
-                padding-right: 100px; 
-                text-align: right;
-                height: 100px;
-                align-content: space-between;
-                display: inline-block; 
-                width: 100vw;
-                vertical-align: right;
-                line-height: 4.8;
-                font-size: 1.5rem; 
-                font-family: 'EB Garamond', serif;
-                font-weight: 50; 
-                vertical-align: right;
-                text-align: right;
-                display: inline-block; 
-                color: white;
-            }
-            
-            .button{
-                // display: flex;
-                display: grid; 
-                align-items: flex-end;
-                background: transparent; 
-                border: none; 
-                width: 100%; 
-                justify-self: flex-end;
-                position: relative; 
-                flex-direction: column;
-                grid-template-columns: 1fr 2fr;
-                padding-right: 100px;
-                height: 100px;
-                align-content: space-between;
-                display: inline-block; 
-                vertical-align: right;
-                font-size: 1.5rem; 
-                font-family: 'EB Garamond', serif;
-                font-weight: 50; 
-                vertical-align: right;
-                text-align: right;
-                display: inline-block; 
-                color: white;
-                .gun-classifieds-btn{
-
-                    background: #A63C3C;
-                    position: relative;
-                    width: auto;
-                    transition: all .3s ease-in-out;
-                    text-align: center;
-                    padding: 10px; 
-                    margin: 20px;
-                    height: 50px;
-                    &:hover {
-                        background: #343773;
-                        transition: all .3s ease-in-out;
-                        width: auto; 
-                        color: white; 
-                        font-size: 1.8rem;
-                        text-decoration: underline;
-                        
-                        height: 50px;  
-                    }
-                    
-                }
-            }
-
+        
 
            
          
@@ -177,6 +58,9 @@ body {
                     padding: 0 50px; 
                     color: white; 
                     margin-bottom: 20px;
+                    margin-top: 20px; 
+                    font-size: 1.3rem;
+                    font-family: 'EB Garamond', serif;
                     span {
                         margin-top: 3px;
                     }
@@ -186,32 +70,201 @@ body {
                     padding: 0 50px; 
                     color: white; 
                     margin-top: 10px;
-                    margin-left: 10px; 
+                    font-size: 1.3rem;
+                    font-family: 'EB Garamond', serif;
+                  
                     span {
                         margin-top: 3px;
                     }
                  
                 }
             }
-            // .background-img {
+
+
+            #logo-listing-container {
+    
+                background: white;
+                // text-align: center; 
+                height: 360px; 
+                font-size: 1.5rem; 
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 700;
+                // width: 100%;
+                z-index: 10; 
+                // position: relative; 
+                //  display: flex; 
+                padding-bottom: 50px; 
+                display: grid; 
+                grid-template-columns: 50% 50%;
                 
+                img {
+                    height: 280px; 
+                    width: 240px; 
+                    padding: 20px 0; 
+                    display: inline-block;
+                    margin: 0 auto; 
+                    max-width: 100%;
+                    max-height: 250px;
+                    position: relative; 
+
+                } 
+              
+                .burger {
+                    display: inline-block;
+                    max-width: 100%; 
+                    text-decoration: none;
+                    color: purple; 
+                    position: relative; 
+                    background: white;
+                    padding: 50px 100px 0 0; 
+                    height: 80px;
+                    text-align: end;
+                }
+                .login {
+                    display: inline-block;
+                    max-width: 100%; 
+                    text-decoration: none;
+                    color: purple; 
+                    position: relative; 
+                    background:white;  
+                    padding: 50px 100px 0 0; 
+                    height: auto; 
+                    text-align: end;
+                }
+               
+                #nav-links {
+                //    visibility: hidden;
+                    position: relative; 
+                    height: 150px; 
+                    padding: 10px; 
+                   justify-content: space-between;
+                   display: inline-block;
+                }
+            
+            
+               
+              
+            
+            }
+            
+            #bigstuff {
+                height: 500px; 
             
 
-            //     .img-test{
-            //         background: url('/img/darkened.png');
-            //         background-repeat: no-repeat;
-            //         background-position-x: center;
-            //         transform: translate3d(0, -200px, 0);
-            //         margin: 0 auto; 
-            //         z-index: -100; 
-            //         position: relative;
-            //         width: 100vw; 
-            //         max-width: 100%;
-            //         color: white; 
+                color: white; 
+                text-align: right;
+                font-size: 3rem;
+                z-index: -100;         
+                position: fixed; 
+                max-width: 200px;
+                transform: translate3d(0, -100px, 0);
+                   #background-img {
+                        align-self: center;
+                        position: fixed;
+                        
+                        background: url("/img/darkened.png"); 
+                        background-repeat: no-repeat center center;
+                        object-fit: cover;
+                        z-index: -100; 
+        
+        }
+                // position: relative; 
+                
+        }
+        .bigtext {
+            
+            margin-top: -20px;
+            font-size: 3.5rem;
+            line-height: 1;
+            font-family: 'EB Garamond', serif;
+            color: black; 
+            display: flex;
+            align-items: flex-end;
+            color: white;
+            padding: 50px; 
+            justify-self: flex-end;
+            position: relative; 
+            flex-direction: column;
+            // width: 100%; 
+            padding-right: 100px; 
+            text-align: right;
+            height: 100px;
+            align-content: space-between;
+            display: inline-block; 
+            width: 100vw;
+            vertical-align: right;
+           
+        }
+        .buy{
+            display: flex;
+            align-items: flex-end;
+            justify-self: flex-end;
+            position: relative; 
+            flex-direction: column;
+            // width: 100%; 
+            padding-right: 100px; 
+            text-align: right;
+            height: 100px;
+            align-content: space-between;
+            display: inline-block; 
+            width: 100vw;
+            vertical-align: right;
+            line-height: 4.8;
+            font-size: 1.5rem; 
+            font-family: 'EB Garamond', serif;
+            font-weight: 50; 
+            vertical-align: right;
+            text-align: right;
+            display: inline-block; 
+            color: white;
+        }
+        
+        .button{
+            // display: flex;
+            display: grid; 
+            align-items: flex-end;
+            background: transparent; 
+            border: none; 
+            width: 100%; 
+            justify-self: flex-end;
+            position: relative; 
+            flex-direction: column;
+            grid-template-columns: 1fr 2fr;
+            padding-right: 100px;
+            height: 100px;
+            align-content: space-between;
+            display: inline-block; 
+            vertical-align: right;
+            font-size: 1.5rem; 
+            font-family: 'EB Garamond', serif;
+            font-weight: 50; 
+            vertical-align: right;
+            text-align: right;
+            display: inline-block; 
+            color: white;
+            .gun-classifieds-btn{
+
+                background: #A63C3C;
+                position: relative;
+                width: auto;
+                transition: all .3s ease-in-out;
+                text-align: center;
+                padding: 10px; 
+                margin: 20px;
+                height: 50px;
+                &:hover {
+                    background: #343773;
+                    transition: all .3s ease-in-out;
+                    width: auto; 
+                    color: white; 
+                    font-size: 1.8rem;
+                    text-decoration: underline;
                     
-                    
-            //     }
-            // }
+                    height: 50px;  
+                }
+                
+            }
+        }
 
             
             
@@ -342,112 +395,6 @@ body {
 
 
 
-#logo-listing-container {
-    
-    background: white; 
-    // text-align: center; 
-    height: 360px; 
-    font-size: 1.5rem; 
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    // width: 100%;
-    z-index: 10; 
-    position: relative; 
-     
-    padding-bottom: 50px;  
-   
-    #nav-links {
-       
-        position: relative; 
-        height: 150px; 
-        padding: 10px; 
-       justify-content: space-between;
-    }
-   a {
-      
-    //    justify-content: space-between !important;
-       padding: 2px 20px; 
-       font-family: 'Libre Baskerville', serif;
-       text-transform: capitalize;
-       text-decoration: none;
-       display: inline;  
-       justify-content: center;
-       align-items: center;
-       text-align: center;
-       color: black ; 
-   
-       font-weight: 400; 
-    //    background: blue; 
-       font-size: 1.3rem; 
-       &:hover{
-           color: #A63C3C;
-           text-decoration: underline;
-       }
-
-
-   }
-   #bigstuff {
-    height: 700px; 
-    // width: 100%; 
-    color: white; 
-    text-align: right;
-    padding-right: 120px; 
-    font-size: 3rem;
-    
-    background: transparent; 
-    position: relative; 
-    .bigtext {
-        margin-top: 10px;
-        font-size: 5rem;
-        font-family: 'Domine', serif;
-        color: white; 
-        display: flex;
-
-  justify-self: flex-end;
-  flex-direction: column;
-  // width: 100%; 
-  vertical-align: middle;
-  height: 100px;
-  align-content: space-between;
-    }
-    .button {
-        width: 300px;
-        height: 100px;
-        margin-top: 30px;
-        font-size: 4rem;
-        font-family: 'Domine', serif;
-        color: white; 
-        display: inline-block;
-        flex-direction: column;
-        width: 30%; 
-        height: 100px;
-        align-content: space-between;
-        
-        .gun-classifieds-btn {
-            // width: fit-content;
-           
-            background: #A63C3C;
-            // display: flex; 
-           flex-direction: column; 
-           font-size: 2rem;  
-           height: 100px; 
-           padding: 10px; 
-          text-align: center;
-          align-items: center;
-           font-family: 'EB Garamond', serif;
-
-        }
-    }
-    // #buy {
-    //     font-size: 2.5rem; 
-    //     font-family: 'EB Garamond', serif;
-    //     font-weight: 50; 
-    //     display: inline-block; 
-    // }
-    
-}
-
-}
 
 #footer-wrapper {
     position: relative; 
@@ -805,9 +752,6 @@ body {
              padding: 50px; 
          }
            
-            //  display: block; 
-            //  justify-content: center;
-            //  position: relative; 
             .buy{
                 display: flex;
                 align-items: flex-end;
@@ -834,23 +778,20 @@ body {
             }
             
             .button{
-                // display: flex;
+              
                 display: grid; 
                 align-items: flex-end;
-              background: transparent; 
-              border: none; 
-              width: 100%; 
+                background: transparent; 
+                border: none; 
+                width: 100%; 
                 justify-self: flex-end;
                 position: relative; 
                 flex-direction: column;
                 grid-template-columns: 1fr 2fr;
-             padding: 50px;
-                // text-align: right;
+                padding: 50px;
                 height: 100px;
                 align-content: space-between;
                 display: inline-block; 
-                // width: 100vw;
-                // padding: 10px;
                 vertical-align: right;
                 font-size: 1rem; 
                 font-family: 'EB Garamond', serif;
@@ -888,31 +829,41 @@ body {
             .contacts-container{
              position: relative; 
              display: grid; 
-             grid-template-columns: 50% 50%;
+             grid-template-rows: 50% 50%;
              
             //  flex-direction: column;
                 .mail-icon-row{
-                    display: flex; 
-                    // background: green; 
-                    max-width: 50%;
-                    padding: 10px; 
+                    display: flex;
+                    margin-right: 50px;
+                    
+               
+                    
                     span {
                         margin-left: 0; 
-                        font-size: .6rem; 
+                        font-size: .8rem; 
                         vertical-align: center;
                         font-weight: 700;
                     }            
                  }
                  .phone-icon-row{
-                    display: flex; 
-                    // flex-direction: column;
-                    // background: green; 
-                    padding: 0 20px; 
+                    // display: inline-block; 
+                  
+                    // padding: 20px;
+                    display: flex;
+                    margin-right: 50px;
+                   
+                   justify-content: center;
+                   
+                  
                      span {
                         margin-left: 0; 
-                        font-size: .6rem; 
-                        vertical-align: center;
+                        font-size: 1rem; 
+                        // vertical-align: center;
                         font-weight: 700;
+                       
+                        align-items: center;
+                      position: relative; 
+                        font-family: 'EB Garamond', serif; 
                     }
                  }
                

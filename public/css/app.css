@@ -159,14 +159,103 @@ body .app-layout .first #top-ad-section {
   padding: 50px;
 }
 
+body .app-layout .first .contacts-container {
+  padding: 10px;
+  background: linear-gradient(180deg, #a63c3c 85%, #7c2121 100%);
+  flex-direction: row;
+  height: 100px;
+}
+
+body .app-layout .first .contacts-container .mail-icon-row {
+  height: 10px;
+  padding: 0 50px;
+  color: white;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-size: 1.3rem;
+  font-family: "EB Garamond", serif;
+}
+
+body .app-layout .first .contacts-container .mail-icon-row span {
+  margin-top: 3px;
+}
+
+body .app-layout .first .contacts-container .phone-icon-row {
+  height: 10px;
+  padding: 0 50px;
+  color: white;
+  margin-top: 10px;
+  font-size: 1.3rem;
+  font-family: "EB Garamond", serif;
+}
+
+body .app-layout .first .contacts-container .phone-icon-row span {
+  margin-top: 3px;
+}
+
+body .app-layout .first #logo-listing-container {
+  background: white;
+  height: 360px;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  z-index: 10;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+body .app-layout .first #logo-listing-container img {
+  height: 280px;
+  width: 240px;
+  padding: 20px 0;
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 100%;
+  max-height: 250px;
+  position: relative;
+}
+
+body .app-layout .first #logo-listing-container .burger {
+  display: inline-block;
+  max-width: 100%;
+  text-decoration: none;
+  color: purple;
+  position: relative;
+  background: white;
+  padding: 50px 100px 0 0;
+  height: 80px;
+  text-align: end;
+}
+
+body .app-layout .first #logo-listing-container .login {
+  display: inline-block;
+  max-width: 100%;
+  text-decoration: none;
+  color: purple;
+  position: relative;
+  background: white;
+  padding: 50px 100px 0 0;
+  height: auto;
+  text-align: end;
+}
+
+body .app-layout .first #logo-listing-container #nav-links {
+  position: relative;
+  height: 150px;
+  padding: 10px;
+  justify-content: space-between;
+  display: inline-block;
+}
+
 body .app-layout .first #bigstuff {
   height: 500px;
-  width: 100vw;
   color: white;
   text-align: right;
   font-size: 3rem;
   z-index: -100;
   position: fixed;
+  max-width: 200px;
   transform: translate3d(0, -100px, 0);
 }
 
@@ -270,36 +359,6 @@ body .app-layout .first .button .gun-classifieds-btn:hover {
   height: 50px;
 }
 
-body .app-layout .first .contacts-container {
-  padding: 10px;
-  background: linear-gradient(180deg, #a63c3c 85%, #7c2121 100%);
-  flex-direction: row;
-  height: 100px;
-}
-
-body .app-layout .first .contacts-container .mail-icon-row {
-  height: 10px;
-  padding: 0 50px;
-  color: white;
-  margin-bottom: 20px;
-}
-
-body .app-layout .first .contacts-container .mail-icon-row span {
-  margin-top: 3px;
-}
-
-body .app-layout .first .contacts-container .phone-icon-row {
-  height: 10px;
-  padding: 0 50px;
-  color: white;
-  margin-top: 10px;
-  margin-left: 10px;
-}
-
-body .app-layout .first .contacts-container .phone-icon-row span {
-  margin-top: 3px;
-}
-
 #top-container #background-img {
   align-self: center;
   position: relative;
@@ -356,91 +415,6 @@ body .app-layout .first .contacts-container .phone-icon-row span {
   height: 300px;
   background: white;
   display: block;
-}
-
-#logo-listing-container {
-  background: white;
-  height: 360px;
-  font-size: 1.5rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  z-index: 10;
-  position: relative;
-  padding-bottom: 50px;
-}
-
-#logo-listing-container #nav-links {
-  position: relative;
-  height: 150px;
-  padding: 10px;
-  justify-content: space-between;
-}
-
-#logo-listing-container a {
-  padding: 2px 20px;
-  font-family: "Libre Baskerville", serif;
-  text-transform: capitalize;
-  text-decoration: none;
-  display: inline;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: black;
-  font-weight: 400;
-  font-size: 1.3rem;
-}
-
-#logo-listing-container a:hover {
-  color: #A63C3C;
-  text-decoration: underline;
-}
-
-#logo-listing-container #bigstuff {
-  height: 700px;
-  color: white;
-  text-align: right;
-  padding-right: 120px;
-  font-size: 3rem;
-  background: transparent;
-  position: relative;
-}
-
-#logo-listing-container #bigstuff .bigtext {
-  margin-top: 10px;
-  font-size: 5rem;
-  font-family: "Domine", serif;
-  color: white;
-  display: flex;
-  justify-self: flex-end;
-  flex-direction: column;
-  vertical-align: middle;
-  height: 100px;
-  align-content: space-between;
-}
-
-#logo-listing-container #bigstuff .button {
-  width: 300px;
-  height: 100px;
-  margin-top: 30px;
-  font-size: 4rem;
-  font-family: "Domine", serif;
-  color: white;
-  display: inline-block;
-  flex-direction: column;
-  width: 30%;
-  height: 100px;
-  align-content: space-between;
-}
-
-#logo-listing-container #bigstuff .button .gun-classifieds-btn {
-  background: #A63C3C;
-  flex-direction: column;
-  font-size: 2rem;
-  height: 100px;
-  padding: 10px;
-  text-align: center;
-  align-items: center;
-  font-family: "EB Garamond", serif;
 }
 
 #footer-wrapper {
@@ -619,32 +593,34 @@ body .app-layout .first .contacts-container .phone-icon-row span {
   body .app-layout .first .contacts-container {
     position: relative;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
   }
 
   body .app-layout .first .contacts-container .mail-icon-row {
     display: flex;
-    max-width: 50%;
-    padding: 10px;
+    margin-right: 50px;
   }
 
   body .app-layout .first .contacts-container .mail-icon-row span {
     margin-left: 0;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     vertical-align: center;
     font-weight: 700;
   }
 
   body .app-layout .first .contacts-container .phone-icon-row {
     display: flex;
-    padding: 0 20px;
+    margin-right: 50px;
+    justify-content: center;
   }
 
   body .app-layout .first .contacts-container .phone-icon-row span {
     margin-left: 0;
-    font-size: 0.6rem;
-    vertical-align: center;
+    font-size: 1rem;
     font-weight: 700;
+    align-items: center;
+    position: relative;
+    font-family: "EB Garamond", serif;
   }
 
   #top-container {
