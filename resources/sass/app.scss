@@ -275,23 +275,16 @@ body {
             }
         }
 
-            
-            
-
-
-
-
-
-
-
-
-
-
          
         }
         
     }
 
+}
+
+#lower-content {
+    background: green; 
+    transform: translate3d(0, -200px, 0); 
 }
 
 #top-container {
@@ -883,6 +876,12 @@ body {
      }
 
 
+    }
+
+
+    #lower-content {
+        background: green; 
+        transform: translate3d(0, 400px, 0); 
     }
 //test content
 #top-container{

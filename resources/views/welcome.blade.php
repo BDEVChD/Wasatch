@@ -121,7 +121,7 @@
         </div>
   
    
-    <section style="background: green; transform: translate3d(0, -400px, 0); ">
+    <section id="lower-content" >
     Things happpening 
     </section>
     
