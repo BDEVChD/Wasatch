@@ -21,6 +21,7 @@
         <!-- Styles -->
        
     </head>
+ 
     <body>
  
     <div class="app-layout">
@@ -41,11 +42,23 @@
             </div>
              <section id="logo-listing-container" style="">
                 <img  src="/img/WasatchMedium.png">
+         
                
-                {{-- <div id="nav-links"  >
+             {{-- <div id="nav-links"  >
                     <a href="#"  >Home</a>
                     <a href="#">Utah Gun Classifieds</a>
-                    <span><a href="#">Categories <i class="fa fa-caret-down"></i> </a></span>
+                    <span>
+                        <a class="dropdown" href="#">Categories 
+                            <i class="fa fa-caret-down"></i> 
+                        </a>
+                        <ul class="type" >
+                            <nav style="  background: white; position:relative; display: flex; flex-direction: column; height: 50px;">
+                                <a href="/account">account</a>
+                                <a href="/logout">logout</a>
+                            </nav> 
+                        </ul>
+                        
+                   </span>
                     <a href="#">Add Listing</a>
                     <a href="#">Manage Listing</a>
                     <a href="#" >Contact Us</a>
@@ -61,7 +74,7 @@
 
               <section id="bigstuff" style="">
                 <div class="background-img" >
-                   <img src="/img/darkened.png"  >        
+                   <img src="/img/darkened.png" style="width: 100vw;"  >        
                  </div>
              </section> 
              
@@ -85,47 +98,33 @@
        
     </div>
     
-       
+    
 
-
-  {{-- <div className={`dropdown ${this.state.dropdown ? 'active' : ''}`}>
-              <ul>
-                <nav>
-                  <a href="/account">account</a>
-                  <a href="/logout">logout</a>
-                </nav>
-              </ul>
-            </div> --}}
-
-
-        {{-- <div id="top-container">      
-            <div id="top-ad-section">Need help posting an ad?
-                <span class="click-text">Click Here.</span>
-            </div>      
-        <section id="navsection">
-            <div class="icon-hold">
-                <div class="row"> 
-                    <i class="fa fa-envelope" style=" " aria-hidden="true"> 
-                        <span class="icontext" style="position:absolute; left: 35px; ">
-                wasatchfirearmnetwork@gmail.com
-                        </span>
-                    </i> 
-                </div>
-                <div class="row"> 
-                    <i class="fa fa-envelope" style=" " aria-hidden="true"> 
-                        <span class="icontext" style="position:absolute; left: 35px; ">wasatchfirearmnetwork@gmail.com
-                        </span>
-                    </i> 
-                </div>   
-            </div>         
-        </section> 
-        <img id="background-img"> --}}
-        </div>
+      
   
    
     <section id="lower-content" >
-    Things happpening 
+    <section id="promotional-wrapper">
+           
+            <div class="promotional-text-left">
+                <div class="content-left">
+                <span class="inside" style="color: #A63C3C; font-family: 'EB Garamond', serif; font-size: 3.4rem; margin-bottom: 20px;  ">YOU ARE ENTERED TO WIN A FREE</span>
+                <span class="inside" style="color:#363973;font-size: 2.4rem " >Good Times Targets AR 500 Target</span>
+                <span class="inside" style="color:#363973; ">Or A</span>
+                <span class="inside" style="color:#363973; font-size: 2.4rem ">Victory Operational Works Holster</span>
+                <span class="inside" style="color:#A63C3C; ">EVERY TIME YOU POST WITH US!</span>
+                <span class="inside" style="color:#363973; ">
+                    The winner will have a choice of the Targets or holsters offered, or can upgrade and pay the difference for other items.</span>
+                </div>         
+            </div> 
+            <div class="promotional-section-right ">
+            {{-- <img src="/img/good-times-square-ad.png"> --}}
+            </div> 
+        </section>
     </section>
-    
+     <section id="footer-wrapper">
+     <div id="footer"> © 2019 Wasatch Firearm Network. <br> Utah Web Design and Utah SEO by Ranksey</div></section>
+  
+    </section>
     </body>
 </html>

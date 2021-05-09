@@ -206,15 +206,13 @@ body .app-layout .first #logo-listing-container {
   font-weight: 700;
   z-index: 10;
   padding-bottom: 50px;
-  display: grid;
-  grid-template-columns: 50% 50%;
 }
 
 body .app-layout .first #logo-listing-container img {
   height: 280px;
   width: 240px;
   padding: 20px 0;
-  display: inline-block;
+  display: flex;
   margin: 0 auto;
   max-width: 100%;
   max-height: 250px;
@@ -246,11 +244,31 @@ body .app-layout .first #logo-listing-container .login {
 }
 
 body .app-layout .first #logo-listing-container #nav-links {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+body .app-layout .first #logo-listing-container #nav-links a {
+  text-decoration: none;
   position: relative;
-  height: 150px;
-  padding: 10px;
+  height: 50px;
+  padding: 0 30px;
   justify-content: space-between;
+  font-family: "EB Garamond", serif;
   display: inline-block;
+  text-align: center;
+}
+
+body .app-layout .first #logo-listing-container #nav-links .type:hover a {
+  display: block;
+  padding: 10px 15px;
+  background: green;
+  position: relative;
+  height: 40px;
+  transition: all 0.4s ease-in-out;
+  visibility: hidden;
 }
 
 body .app-layout .first #bigstuff {
@@ -263,17 +281,11 @@ body .app-layout .first #bigstuff {
   transform: translate3d(0, -300px, 0);
 }
 
-body .app-layout .first #bigstuff #background-img {
-  align-self: center;
-  position: fixed;
-  background: url("/img/darkened.png");
-  background-repeat: no-repeat center center;
-  -o-object-fit: cover;
-     object-fit: cover;
-  z-index: -100;
+body .app-layout .first #bigstuff #background-img img {
+  width: 500px;
 }
 
-body .app-layout .first .bigtext {
+body .app-layout .bigtext {
   overflow-y: hidden;
   margin-top: -20px;
   font-size: 3.5rem;
@@ -296,7 +308,7 @@ body .app-layout .first .bigtext {
   vertical-align: right;
 }
 
-body .app-layout .first .buy {
+body .app-layout .buy {
   display: flex;
   overflow-y: hidden;
   align-items: flex-end;
@@ -320,7 +332,7 @@ body .app-layout .first .buy {
   color: white;
 }
 
-body .app-layout .first .button {
+body .app-layout .button {
   overflow-y: hidden;
   display: flex;
   align-items: flex-end;
@@ -345,7 +357,7 @@ body .app-layout .first .button {
   color: white;
 }
 
-body .app-layout .first .button .gun-classifieds-btn {
+body .app-layout .button .gun-classifieds-btn {
   overflow-y: hidden;
   background: #A63C3C;
   position: relative;
@@ -357,7 +369,7 @@ body .app-layout .first .button .gun-classifieds-btn {
   height: 50px;
 }
 
-body .app-layout .first .button .gun-classifieds-btn:hover {
+body .app-layout .button .gun-classifieds-btn:hover {
   background: #343773;
   transition: all 0.3s ease-in-out;
   width: auto;
@@ -368,8 +380,9 @@ body .app-layout .first .button .gun-classifieds-btn:hover {
 }
 
 #lower-content {
-  background: green;
-  transform: translate3d(0, -200px, 0);
+  background: white;
+  transform: translate3d(0, 400px, 0);
+  height: auto;
 }
 
 #top-container #background-img {
@@ -433,6 +446,64 @@ body .app-layout .first .button .gun-classifieds-btn:hover {
 #footer-wrapper {
   position: relative;
   bottom: 0;
+}
+
+#promotional-wrapper {
+  grid-template-columns: 60% 40%;
+  background: white;
+  text-align: center;
+  height: 800px;
+  font-size: 1.5rem;
+}
+
+#promotional-wrapper .promotional-section-right {
+  padding-left: 80px;
+  height: auto;
+  color: black;
+  background: green;
+  display: inline-block;
+  width: 50%;
+}
+
+#promotional-wrapper .promotional-section-right #box {
+  background: white;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 30px;
+  position: relative;
+  right: -100px;
+  display: block;
+}
+
+#promotional-wrapper .promotional-text-left {
+  width: 50%;
+  height: auto;
+  display: flex;
+  background: white;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#promotional-wrapper .promotional-text-left .content-left {
+  background: white;
+  height: 600px;
+  width: 700px;
+  transform: translate3d(100px, 0, 0);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  vertical-align: middle;
+  align-content: space-between;
+}
+
+#promotional-wrapper .promotional-text-left .content-left .inside {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  vertical-align: middle;
+  align-content: space-between;
 }
 
 #classifieds-section {
@@ -586,7 +657,6 @@ body .app-layout .first .button .gun-classifieds-btn:hover {
   }
 
   body .app-layout .first .button .gun-classifieds-btn {
-    background: #A63C3C;
     position: relative;
     width: auto;
     text-align: center;

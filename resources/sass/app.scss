@@ -98,18 +98,19 @@ body {
                 // position: relative; 
                 //  display: flex; 
                 padding-bottom: 50px; 
-                display: grid; 
-                grid-template-columns: 50% 50%;
+                // display: grid; 
+                // grid-template-columns: 50% 50%;
                 
                 img {
                     height: 280px; 
                     width: 240px; 
                     padding: 20px 0; 
-                    display: inline-block;
+                    display: flex; //remember this for change
                     margin: 0 auto; 
                     max-width: 100%;
                     max-height: 250px;
                     position: relative; 
+                   
 
                 } 
               
@@ -123,6 +124,7 @@ body {
                     padding: 50px 100px 0 0; 
                     height: 80px;
                     text-align: end;
+                    // visibility: hidden;
                 }
                 .login {
                     display: inline-block;
@@ -137,13 +139,48 @@ body {
                 }
                
                 #nav-links {
-                //    visibility: hidden;
-                    position: relative; 
-                    height: 150px; 
-                    padding: 10px; 
-                   justify-content: space-between;
-                   display: inline-block;
-                }
+                      text-decoration: none;
+                      display: flex;
+                      justify-content: center;
+                      text-align: center;
+                     
+                       a {
+                           text-decoration: none;
+                           position: relative; 
+                           height: 50px; 
+                           padding: 0 30px; 
+                          justify-content: space-between;
+                          font-family: 'EB Garamond', serif;
+                          display: inline-block;
+                          text-align: center;
+                       }
+                       .dropdown{}
+                       .type:hover{
+                         
+                        a{
+                            display: block; 
+                            padding: 10px 15px; 
+                            background: green; 
+                            position: relative;
+                            height: 40px; 
+                            transition: all .4s ease-in-out;
+                            visibility: hidden;  
+                          
+                          }
+                      }  
+                          
+                        
+                        //    margin-top: -100px;
+                        //    a{
+                        //        display: block; 
+                        //    }
+                        //    visibility: hidden;
+                        
+                        
+                         
+                       
+                    
+                    }
             
             
                
@@ -159,17 +196,23 @@ body {
                 text-align: right;
                 font-size: 3rem;
                 z-index: -100;         
-                position: fixed; 
-              
+                position: fixed;
                 
                 transform: translate3d(0, -300px, 0);
-                   #background-img {
-                        align-self: center;
-                        position: fixed;
-                        background: url("/img/darkened.png"); 
-                        background-repeat: no-repeat center center;
-                        object-fit: cover;
-                        z-index: -100; 
+               
+                    #background-img {
+                       img {
+                           width: 500px;
+                       }
+                        //     align-self: center;
+                        // // position: fixed;
+                        // background: url("/img/darkened.png"); 
+                        // background-repeat: no-repeat center center;
+                        // object-fit: cover;
+                        
+                        // z-index: -100; 
+                        
+                  }
                        
         
         }
@@ -280,30 +323,18 @@ body {
         
     }
 
-}
+
 
 #lower-content {
-    background: green; 
-    transform: translate3d(0, -200px, 0); 
+    background: white; 
+    transform: translate3d(0, 400px, 0); 
+    height: auto; 
 }
 
 #top-container {
   
  
-    // background: green; 
-    // padding: 0;   
-    // height: 100vh; 
-    // margin: 0 auto;  
-    // display: grid;    
-    // background: #272640;
-    // background-repeat: no-repeat center center;
-// background: radial-gradient(circle, rgba(51,50,89,1) 33%, rgba(91,85,115,1) 100%);
-    // background: url('/img/testshop.jpg');
-    // background: url("/img/darkened.png"); 
-    // background-attachment: fixed;
-    // background-size: cover;
-    
-    // z-index: 100;
+
 
     #background-img {
         align-self: center;
@@ -403,84 +434,88 @@ body {
     bottom: 0;
 }
 
-// #promotional-wrapper {
+#promotional-wrapper {
     
-//     // grid-template-columns: 1fr 2fr;
-//     z-index: 50; 
-//     background: white;
-//     text-align: center; 
-//     height: 800px; 
-//     width: 100vw; 
+    grid-template-columns: 60% 40%;
+ 
+    background: white;
+    text-align: center; 
+    height: 800px; 
     
-//     font-size: 1.5rem; 
-//     z-index: 10; 
-//     .promotional-text-left {
-//         width: 50%; 
-//         height: 800px; 
-//         display: flex;
-//         background: white; 
-//         align-items: center;
-//         justify-content: flex-end;
-//        .content-left{
-//            background: white; 
-//            height: 600px; 
-//            width: 700px;
-//            transform: translate3d(100px, 0,0); 
-//            display: flex; 
-//            justify-content: flex-end;
-//            align-items: center;
-//            flex-direction: column;
-//            // width: 100%; 
-//            color: white; 
-//            vertical-align: middle;
-//            align-content: space-between;
-//            .inside{
-//                display: flex;
-         
-//             flex-direction: column;
-//             // width: 100%; 
-//             color: white; 
-//             vertical-align: middle;
-//             align-content: space-between;
-              
-//            }
-//        }
-//     }
-   
-//     // .promotional-section-right {
-//     //     padding-left: 80px; 
-//     //     height: 600px;
-//     //     float: right; 
-//     //     // background: red; 
-//     //     display: inline-block;
-//     //     color: black; 
-//     //     width: 50%;
-//     //     max-// width: 100%;
-//     //     max-height: 100%;
-//     //     #box {
-//     //         height: 350px; 
-//     //         width: 350px; 
-//     //         background: white; 
-//     //         justify-content: center;
-//     //         padding: 10px; 
-//     //         margin-top: 30px; 
-//     //         position: relative; 
-//     //         right: -100px;
-//     //         display: block; 
-//     //         max-// width: 100%;
-//     //         max-height: 100%;
-//     //         img {
-//     //             max-// width: 100%;
-//     //             max-height: 100%;
+    
+    font-size: 1.5rem; 
+  
+   .promotional-section-right {
+    padding-left: 80px; 
+    height: auto;
+    // display: inline-block;
+    color: black; 
+    background: green; 
+    display: inline-block;
+    width: 50%;
+    #box {
+    
+        background: white; 
+        justify-content: center;
+        padding: 10px; 
+        margin-top: 30px; 
+        position: relative; 
+        right: -100px;
+        display: block; 
+      
+      
+        
+        
+       
+    }
+           
 
-//     //         }
-            
-//     //     }
-//     // }
+   
+   }
+   
+        
+    .promotional-text-left {
+        width: 50%; 
+        height: auto;
+        display: flex;
+        background: white; 
+        align-items: center;
+        justify-content: flex-end;
+       .content-left{
+           background: white; 
+           height: 600px; 
+           width: 700px;
+           transform: translate3d(100px, 0,0); 
+           display: flex; 
+           justify-content: flex-end;
+           align-items: center;
+           flex-direction: column;
+           // width: 100%; 
+           color: white; 
+           vertical-align: middle;
+           align-content: space-between;
+           .inside{
+               display: flex;
+         
+            flex-direction: column;
+            // width: 100%; 
+            color: white; 
+            vertical-align: middle;
+            align-content: space-between;
+              
+           }
+       }
+    }
+}
+   
+    
+        
+
+    
    
   
-    
-// }
+
+
 
 
 #classifieds-section {
@@ -810,7 +845,7 @@ body {
                
                 .gun-classifieds-btn{
             
-                    background: #A63C3C;
+                    // background: #A63C3C;
                     position: relative;
                     width: auto;
                     text-align: center;
