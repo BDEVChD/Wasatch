@@ -122,6 +122,28 @@
             </div> 
         </section>
     </section>
+       {{-- <section id="under-banner-values"  >
+            <div class="values-title">
+            More Than Just Classifieds. Our Values:
+            </div>
+            <div class="values-container">
+                  <div class="values-row" >
+                    <div class="values-left"  style="padding-left: 50px;" >PRIDE</div>
+                    <div class="values-right" style="padding-left: 50px; ">We are proud of our firearm heritage and who we are as Utah gun owners. </div>
+                </div>
+                <div class="values-row" >
+                    <div class="values-left"  >PATRIOTISM</div>
+                    <div class="values-right" >We love our country, and are committed to preserving the constitution which guarantees individual liberty. </div>
+                </div>
+                <div class="values-row" >
+                    <div class="values-left" >RESPONSIBILITY</div>
+                    <div class="values-right" >The 2nd Amendment will be preserved or lost due to the actions of gun owners. We are here to empower our citizens to act responsibly to preserve it. </div>
+                </div>
+                
+                
+            </div>
+        </section> --}}
+ 
      <section id="footer-wrapper">
      <div id="footer"> © 2019 Wasatch Firearm Network. <br> Utah Web Design and Utah SEO by Ranksey</div></section>
   

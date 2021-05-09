@@ -506,6 +506,48 @@ body .app-layout .button .gun-classifieds-btn:hover {
   align-content: space-between;
 }
 
+#under-banner-values {
+  height: 100px;
+  background: green;
+}
+
+#under-banner-values .values-title {
+  padding: 150px;
+  background: white;
+  height: 50px;
+  font-family: "EB Garamond", serif;
+  font-size: 3rem;
+  color: #363973;
+}
+
+#under-banner-values .values-container {
+  height: 400px;
+  background: white;
+  font-family: "EB Garamond", serif;
+}
+
+#under-banner-values .values-container .values-row {
+  height: 100px;
+}
+
+#under-banner-values .values-container .values-row .values-left {
+  display: inline-block;
+  padding: 20px;
+  height: 50px;
+  justify-content: flex-end;
+  font-size: 4rem;
+  color: #A63C3C;
+}
+
+#under-banner-values .values-container .values-row .values-right {
+  display: inline-block;
+  padding: 20px;
+  background: white;
+  height: 300px;
+  color: #363973;
+  font-size: 2rem;
+}
+
 #classifieds-section {
   background: white;
   display: flex;
@@ -543,52 +585,9 @@ body .app-layout .button .gun-classifieds-btn:hover {
 
 /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 
-#under-banner-values {
-  height: 100px;
-}
-
-#under-banner-values .values-title {
-  padding: 150px;
-  background: white;
-  height: 50px;
-  font-family: "EB Garamond", serif;
-  font-size: 3rem;
-  color: #363973;
-}
-
-#under-banner-values .values-container {
-  height: 400px;
-  background: white;
-  font-family: "EB Garamond", serif;
-}
-
-#under-banner-values .values-container .values-row {
-  height: 100px;
-  display: grid;
-  grid-template-columns: 450px 1fr;
-  position: relative;
-}
-
-#under-banner-values .values-container .values-row max- .values-left {
-  display: inline-block;
-  background: white;
-  height: 50px;
-  font-size: 4rem;
-  color: #A63C3C;
-}
-
-#under-banner-values .values-container .values-row .values-right {
-  display: inline-block;
-  padding: 20px;
-  background: white;
-  height: 300px;
-  color: #363973;
-}
-
 #lower-content-container {
   height: 900px;
-  background-image: url("/img/blended.png");
-  opacity: 0.08;
+  opacity: 0.8;
   background-repeat: no-repeat;
   background-size: cover;
   vertical-align: middle;
